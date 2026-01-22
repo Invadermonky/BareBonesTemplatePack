@@ -136,7 +136,7 @@
 		"should_crash_on_startup": false
 	},
 	"deuf": {
-		"msg": "Duplicate Entity UUID Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"msg": "A completely different and better implementation of the features by Duplicate Entity UUID Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"diethopper": {
@@ -226,6 +226,10 @@
 	"mup": {
 		"msg": "Eigencraft Unofficial Patch / MUP is known to cause crashes and is outdated. Universal Tweaks already has most of its fixes and Alfheim already has lighting optimizations.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
+	},
+	"nanfix": {
+		"msg": "A completely different and better implementation of the features by Entity NaN Health Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
 	},
 	"netherportalfix": {
 		"msg": "A completely different and better implementation of the features by NetherPortalFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
