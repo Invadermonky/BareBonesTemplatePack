@@ -2,5 +2,25 @@
 	"example_modid": {
 		"msg": "Custom msg on crash for this mod id. You can use $JAR_NAME$ placeholder, which will be replaced with jar name. You can use HTML here, it will work.",
 		"should_crash_on_startup": true
+	},
+	"betterfps": {
+		"msg": "BetterFPS is known to cause crashes with little to no performance gain. Many of the improvements are already included in other mods.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"clumps": {
+		"msg": "Clumps is superseded by Fixeroo, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"fastbench": {
+		"msg": "Fast Workbench has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"fastfurnace": {
+		"msg": "Fast Furnace has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"performant": {
+		"msg": "Performant is an empty mod jar. All code in the mod has been commented out.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
 	}
 }
