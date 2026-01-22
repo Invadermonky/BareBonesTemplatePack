@@ -123,9 +123,65 @@
 		"msg": "Creeper Confetti has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"damagetilt": {
+		"msg": "Damage Tilt has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"darkstone": {
+		"msg": "Dark Redstone has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"defaultlanport": {
+		"msg": "A completely different and better implementation of the features by Default LAN Port already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"deuf": {
+		"msg": "Duplicate Entity UUID Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"diethopper": {
+		"msg": "Diet Hoppers has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"ding": {
+		"msg": "A completely different and better implementation of the features by Ding already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"drawerfps": {
+		"msg": "DrawerFPS Legacy has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"dupefixproject": {
 		"msg": "DupeFix Project is not compatible with MixinBooter. Universal Tweaks and the forks of the affected mods already include the same fixes.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
+	},
+	"easybreeding": {
+		"msg": "Easy Breeding has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"enablecheats": {
+		"msg": "Enable Cheats has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"endportalparallax": {
+		"msg": "End Portal Parallax has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"entity_desync_fix": {
+		"msg": "Entity Desync Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"erebusfix": {
+		"msg": "A completely different and better implementation of the features by Erebus Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"experiencebugfix": {
+		"msg": "Fix Experience Bug has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"eyltrafix": {
+		"msg": "A completely different and better implementation of the features by Elytra-Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
 	},
 	"fastbench": {
 		"msg": "Fast Workbench has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -135,9 +191,33 @@
 		"msg": "Fast Furnace has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"fastleafdecay": {
+		"msg": "Fast Leaf Decay has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"fencejumper": {
+		"msg": "Fence Jumper has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"finite-fluid-control": {
+		"msg": "Finite Water Control has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"foodfix": {
+		"msg": "A completely different and better implementation of the features by Food Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"forgivingvoid": {
+		"msg": "A completely different and better implementation of the features by Forgiving Void already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"fpsboostremake": {
 		"msg": "FPS Boost has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
+	},
+	"framevoidpatch": {
+		"msg": "Frame Void Patch has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
 	},
 	"gpu_tape": {
 		"msg": "GPUTape has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
