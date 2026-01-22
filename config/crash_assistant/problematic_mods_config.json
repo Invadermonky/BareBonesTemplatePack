@@ -35,6 +35,18 @@
 		"msg": "Fast Furnace has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"fpsboostremake": {
+		"msg": "FPS Boost has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"gpu_tape": {
+		"msg": "GPUTape has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"mup": {
+		"msg": "Eigencraft Unofficial Patch / MUP is known to cause crashes and is outdated. Universal Tweaks already has most of its fixes and Alfheim already has lighting optimizations.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"netherportalfix": {
 		"msg": "A completely different and better implementation of the fix by NetherPortalFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -43,8 +55,16 @@
 		"msg": "Performant is an empty mod jar. All code in the mod has been commented out.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"redirectionor": {
+		"msg": "Redirectionor has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"surge": {
 		"msg": "Surge uses deprecated methods and has no real performance gain. Salvaged features have been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"vintagium": {
+		"msg": "Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	}
 }
