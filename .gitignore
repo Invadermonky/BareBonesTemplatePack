@@ -1,0 +1,8 @@
+/.mixin.out/
+/local/
+/logs/
+/mods/
+/saves/
+/vintagefix/
+.curseclient
+minecraftinstance.json
