@@ -7,20 +7,120 @@
 		"msg": "Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"advancementscreenshot": {
+		"msg": "A completely different and better implementation of the features by Advancement Screenshot already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"aiimprovements": {
+		"msg": "A completely different and better implementation of the features by AI Improvements already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"armorcurve": {
+		"msg": "Armor Curve has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"attributefix": {
 		"msg": "Attribute Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bannerpatch": {
+		"msg": "Banner Patch has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bedbreakbegone": {
+		"msg": "BedBreakBegone has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bedfix": {
+		"msg": "A completely different and better implementation of the features by BedFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"bedpatch": {
 		"msg": "Bed Patch's fix already exists within Forge / Cleanroom and doesn't do anything when installed.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"betterburning": {
+		"msg": "Better Burning has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"betterfps": {
 		"msg": "BetterFPS is known to cause crashes with little to no performance gain. Many of the improvements are already included in other mods.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"betterpingdisplay": {
+		"msg": "Better Ping Display has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"betterplacement": {
+		"msg": "Better Placement has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"biggerchathistory": {
+		"msg": "A completely different and better implementation of the features by Bigger Chat History already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"biggerpacketsplz": {
+		"msg": "Bigger Packets Please has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"blockdispenser": {
+		"msg": "Block Dispenser has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"blockoverlayfix": {
+		"msg": "Block Overlay Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bottlefix": {
+		"msg": "BottleFix has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bottomsugarcanharvest": {
+		"msg": "A completely different and better implementation of the features by Bottom Sugar Cane Harvest already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bowinfinityfix": {
+		"msg": "Bow Infinity Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"breedablekillerrabbit": {
+		"msg": "A completely different and better implementation of the features by Breedable Killer Rabbit already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"chickensshed": {
+		"msg": "ChickensShed has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"cie": {
+		"msg": "Configurable Item Entities (CIE) has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"classiccombat": {
+		"msg": "A completely different and better implementation of the features by Classic Combat already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"cleardespawn": {
+		"msg": "Clear Despawn has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"clumps": {
 		"msg": "Clumps is superseded by Fixeroo, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"configurablecane": {
+		"msg": "A completely different and better implementation of the features by Configurable Cane already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"configurabledespawntimer": {
+		"msg": "A completely different and better implementation of the features by Configurable Despawn Timer already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"continousmusic": {
+		"msg": "A completely different and better implementation of the features by continuousMusic already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"creeperconfetti": {
+		"msg": "Creeper Confetti has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"dupefixproject": {
@@ -48,7 +148,7 @@
 		"should_crash_on_startup": true
 	},
 	"netherportalfix": {
-		"msg": "A completely different and better implementation of the fix by NetherPortalFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"msg": "A completely different and better implementation of the features by NetherPortalFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"performant": {
