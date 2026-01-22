@@ -3,6 +3,18 @@
 		"msg": "Custom msg on crash for this mod id. You can use $JAR_NAME$ placeholder, which will be replaced with jar name. You can use HTML here, it will work.",
 		"should_crash_on_startup": true
 	},
+	"pigium1_12_2": {
+		"msg": "Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"attributefix": {
+		"msg": "Attribute Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"bedpatch": {
+		"msg": "Bed Patch's fix already exists within Forge / Cleanroom and doesn't do anything when installed.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"betterfps": {
 		"msg": "BetterFPS is known to cause crashes with little to no performance gain. Many of the improvements are already included in other mods.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
@@ -10,6 +22,10 @@
 	"clumps": {
 		"msg": "Clumps is superseded by Fixeroo, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
+	},
+	"dupefixproject": {
+		"msg": "DupeFix Project is not compatible with MixinBooter. Universal Tweaks and the forks of the affected mods already include the same fixes.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
 	},
 	"fastbench": {
 		"msg": "Fast Workbench has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -19,8 +35,16 @@
 		"msg": "Fast Furnace has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"netherportalfix": {
+		"msg": "A completely different and better implementation of the fix by NetherPortalFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"performant": {
 		"msg": "Performant is an empty mod jar. All code in the mod has been commented out.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"surge": {
+		"msg": "Surge uses deprecated methods and has no real performance gain. Salvaged features have been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	}
 }
