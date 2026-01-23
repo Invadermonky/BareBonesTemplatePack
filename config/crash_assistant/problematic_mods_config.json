@@ -179,6 +179,10 @@
 		"msg": "A completely different and better implementation of the features from Erebus Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"essential": {
+		"msg": "Essential Mod has questionable implementation that makes it incompatible with several mods including CensoredASM and Forgelin-Continuous. It is recommended to use e4mc Retro (Proxy) or Lan UPNP (Non-Proxy) instead for a more simpler alternative.<br>Fix: Delete $JAR_NAME$ from the mods folder. If you're not sure how Essential Mod got installed, a mod you downloaded may be potentially installing it.",
+		"should_crash_on_startup": true
+	},
 	"experiencebugfix": {
 		"msg": "Fix Experience Bug has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
