@@ -243,9 +243,93 @@
 		"msg": "GPUTape has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"helpfixer": {
+		"msg": "HelpFixer has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"hiddenrecipebook": {
+		"msg": "A completely different and better implementation of the features by Hidden Recipe Book already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"horsestandstill": {
+		"msg": "A completely different and better implementation of the features by Stupid Horse Stand Still already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"ikwid": {
+		"msg": "I Know What I'm Doing has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"infwithmend": {
+		"msg": "A completely different and better implementation of the features by Infinity With Mending already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"infinityworkswithallarrows": {
+		"msg": "A completely different and better implementation of the features by Infinity Works With All Arrows already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"insomniac": {
+		"msg": "A completely different and better implementation of the features by Insomniac already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"inventoryspam": {
+		"msg": "Inventory Spam has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"keydescfix": {
+		"msg": "Keybind Description Fix has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"ksyxis": {
+		"msg": "A completely different and better implementation of the features by Ksyxis already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"lanserverproperties": {
+		"msg": "Lan Server Properties has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"leafdecay": {
+		"msg": "A completely different and better implementation of the features by Leaf Decay Accelerator already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"letmedespawn": {
+		"msg": "Let Me Despawn has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"loginhpfix": {
+		"msg": "A completely different and better implementation of the features by Login HP Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"maxhealthfixer": {
+		"msg": "A completely different and better implementation of the features by Max Health Fixer already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"mendingfix": {
+		"msg": "Mending Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"mfpu": {
+		"msg": "A completely different and better implementation of the features by MenuFPSUnlocker already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"mobpc": {
+		"msg": "Mob Population Control has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"movingquickly": {
+		"msg": "A completely different and better implementation of the features by MovingQuickly already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"mtqfix": {
+		"msg": "A completely different and better implementation of the features by MTQFix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"mup": {
 		"msg": "Eigencraft Unofficial Patch / MUP is known to cause crashes and is outdated. Universal Tweaks already has most of its fixes and Alfheim already has lighting optimizations.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
+	},
+	"muteuselesslogs": {
+		"msg": "Mute Useless Logs has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
 	},
 	"nanfix": {
 		"msg": "A completely different and better implementation of the features by Entity NaN Health Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -269,11 +353,11 @@
 	},
 	"texfix": {
 		"msg": "A completely different and better implementation of the features by TexFix already exists in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": false
+		"should_crash_on_startup": true
 	},
 	"vanillafix": {
 		"msg": "VanillaFix has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": false
+		"should_crash_on_startup": true
 	},
 	"vintagium": {
 		"msg": "Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
