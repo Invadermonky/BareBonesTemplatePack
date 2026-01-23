@@ -123,6 +123,10 @@
 		"msg": "Creeper Confetti has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"customspawner": {
+		"msg": "Custom Mob Spawner is very outdated and WILL screw up mob spawns in many mods. If you are using Mo' Creatures, it is highly recommended to use Mo' Creatures Extended instead which removes the dependency.",
+		"should_crash_on_startup": true
+	},
 	"damagetilt": {
 		"msg": "Damage Tilt has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
