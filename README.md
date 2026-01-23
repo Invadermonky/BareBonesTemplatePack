@@ -1,7 +1,19 @@
 # BareBones Template Modpack
+BareBones is a template modpack for Minecraft 1.12.2 that aims to create a minimalistic standardized mod list that can be used as a base for new modpacks or a means of updating old modpacks to the new standards.
 
+Effort was made to ensure that the only mods included in the template by default are those that provide QoL improvements, game optimizations, or bugfixes without directly affecting gameplay.
+
+BareBones also includes a pre-configured Crash Assistant problematic mods config, allowing users to easily identify mods that cause significant issues, or those that are superseded by other mods within the pack.
+
+This pack ***DOES NOT*** include any new content or gameplay modifications outside of minor tweaks present in Universal Tweaks.
+
+This pack ***DOES NOT*** include any type of shader or lighting enhancement mods beyond those that directly improve performance.
+
+---
 
 ## Installation Instructions
+
+---
 
 ## Included Mods
 - **[Advancement Locator](https://www.curseforge.com/minecraft/mc-mods/advancement-locator)** - A QoL mod that adds left click interaction to chat frame Advancements as well as an Advancement locator command.
@@ -24,12 +36,14 @@
 - **[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)** - A community project to consolidate various bugfixes and tweaks into a single solution for Minecraft 1.12.2.
 - **[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)** - An updated an improved version of FoamFix. Improves load times and RAM usage for Minecraft 1.12.2.
 
+---
+
 ## Optional Mods
 - **[Aqua Acrobatics](https://www.curseforge.com/minecraft/mc-mods/aqua-acrobatics)** - Backports 1.13+ swimming, crouching, and crawling. Also backports item floating, which may cause issues with some mods.
 - **[Enchantment Descriptions](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions)** - Adds descriptions to enchantments describing their effects. Supported by most, but not all, mods that add enchantments.
 - **[Ender's Modpack Tweaks](https://www.curseforge.com/minecraft/mc-mods/ender-modpack-tweaks)** - A collection of modpack tweaks, most notably an updated enemy health bar render. Has a soft requirement for [AssetMover](https://www.curseforge.com/minecraft/mc-mods/assetmover) which may increase load times.
 - **[Entity Culling (by tr7zw)](https://www.curseforge.com/minecraft/mc-mods/entityculling)** - Improves performance by hiding entities and tile entities that are not in the player's line of sight. May cause some tile entities to flicker. Performance increases may vary.
-- **[Inventory Bogo Sort](https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter)** - An updated and highly configurable inventory sorter.
+- **[Inventory Bogo Sort](https://www.curseforge.com/minecraft/mc-mods/inventory-bogosorter)** - An updated and highly configurable inventory sorter. Requires [Key Binding Patch](https://www.curseforge.com/minecraft/mc-mods/key-binding-patch) which breaks existing keybind settings.
 - **[JEI Utilities](https://www.curseforge.com/minecraft/mc-mods/jei-utilities)** - Adds a number of useful JEI functions such as view history and recipe bookmarks.
 - **[Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling)** - Prevents particles outside the player's view from rendering. May cause inconsistent particle behavior. Performance increases may vary.
 - **[Potion Descriptions (Forge)](https://www.curseforge.com/minecraft/mc-mods/potion-descriptions)** - Adds descriptions to potions describing their effects. Not as widely supported as Enchantment Descriptions.
