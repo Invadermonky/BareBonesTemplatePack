@@ -15,6 +15,10 @@
 		"msg": "Armor Curve has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"astatine": {
+		"msg": "Astatine has no performance gain and may even reduce performance for some users.",
+		"should_crash_on_startup": true
+	},
 	"attributefix": {
 		"msg": "Attribute Fix has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
