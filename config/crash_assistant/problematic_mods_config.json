@@ -191,10 +191,6 @@
 		"msg": "A completely different and better implementation of the features from Elytra-Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
-	"farsight": {
-		"msg": "Farsight caches chunks indefinitely, which can impact RAM usage.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
-	},
 	"fastbench": {
 		"msg": "Fast Workbench has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
