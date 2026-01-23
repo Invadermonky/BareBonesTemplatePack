@@ -3,10 +3,6 @@
 		"msg": "Custom msg on crash for this mod id. You can use $JAR_NAME$ placeholder, which will be replaced with jar name. You can use HTML here, it will work.",
 		"should_crash_on_startup": true
 	},
-	"pigium1_12_2": {
-		"msg": "Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
-	},
 	"advancementscreenshot": {
 		"msg": "A completely different and better implementation of the features from Advancement Screenshot already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -41,7 +37,7 @@
 	},
 	"bedsaynosleep": {
 		"msg": "A completely different and better implementation of the features from Sleepn't already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"betterburning": {
 		"msg": "Better Burning has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -216,7 +212,7 @@
 		"should_crash_on_startup": false
 	},
 	"foamfix": {
-		"msg": "FoamFix is superseded from VintageFix, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"msg": "FoamFix is superseded by VintageFix, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
 	"foodfix": {
@@ -403,6 +399,10 @@
 		"msg": "Performant is an empty mod jar. All code in the mod has been commented out.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"pigium1_12_2": {
+		"msg": "Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"portaldupebegone": {
 		"msg": "PortalDupeBegone has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -451,9 +451,13 @@
 		"msg": "A completely different and better implementation of the features from Source Bottles already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"spark": {
+		"msg": "Spark is superseded by Flare, which has more features included.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"steamworldpatcher": {
 		"msg": "SteamWorldPatcher has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"stepupfixer": {
 		"msg": "A completely different and better implementation of the features from StepupFixer already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -481,11 +485,11 @@
 	},
 	"tidychunk": {
 		"msg": "TidyChunk has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"tinkersoredictcache": {
 		"msg": "Tinkers OreDict Cache has been merged into Universal Tweaks and Tinkers' Antique.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"tramplestopper": {
 		"msg": "A completely different and better implementation of the features from Trample Stopper already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -497,7 +501,7 @@
 	},
 	"unloader": {
 		"msg": "Unloader has been merged and rewritten in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"unridekeybind": {
 		"msg": "A completely different and better implementation of the features from UnRide Keybind already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
@@ -509,7 +513,7 @@
 	},
 	"villagermantlefix": {
 		"msg": "Villager Mantle Fix has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
-		"should_crash_on_startup": true
+		"should_crash_on_startup": false
 	},
 	"vintagium": {
 		"msg": "Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
