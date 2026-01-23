@@ -183,6 +183,10 @@
 		"msg": "A completely different and better implementation of the features by Elytra-Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"farsight": {
+		"msg": "Farsight caches chunks indefinitely, which can impact RAM usage.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"fastbench": {
 		"msg": "Fast Workbench has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -203,6 +207,10 @@
 		"msg": "Finite Water Control has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"foamfix": {
+		"msg": "FoamFix is superseded by VintageFix, which uses a better and more compatible implementation.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"foodfix": {
 		"msg": "A completely different and better implementation of the features by Food Fix already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -217,6 +225,18 @@
 	},
 	"framevoidpatch": {
 		"msg": "Frame Void Patch has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"getittogetherdrops": {
+		"msg": "Get It Together, Drops! has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"givemebackmyhp": {
+		"msg": "A completely different and better implementation of the features by Give Me Back My HP already exists in Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"gottagofast": {
+		"msg": "Gotta Go Fast has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"gpu_tape": {
@@ -244,8 +264,16 @@
 		"should_crash_on_startup": true
 	},
 	"surge": {
-		"msg": "Surge uses deprecated methods and has no real performance gain. Salvaged features have been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"msg": "Surge uses deprecated methods and has no performance gain. Salvaged features have been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
+	},
+	"texfix": {
+		"msg": "A completely different and better implementation of the features by TexFix already exists in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"vanillafix": {
+		"msg": "VanillaFix has been merged and rewritten in CensoredASM.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
 	},
 	"vintagium": {
 		"msg": "Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
