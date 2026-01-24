@@ -58,6 +58,13 @@
     "curseForgeHash": 3292257935,
     "modrinthHash": "73c99e9a1c530880f4dd6d2646a5e8cd08eaf6c0"
   },
+  "FpsReducer-mc1.12.2-1.20.jar": {
+    "jarName": "FpsReducer-mc1.12.2-1.20.jar",
+    "modId": "fpsreducer",
+    "version": "mc1.12.2-1.20",
+    "curseForgeHash": 2685696341,
+    "modrinthHash": "50c323de01f2235d351bf5417da6d4ef494b12e6"
+  },
   "gnetum-1.3.4.jar": {
     "jarName": "gnetum-1.3.4.jar",
     "modId": "gnetum",
@@ -106,6 +113,13 @@
     "version": "3.1.5",
     "curseForgeHash": 2807017189,
     "modrinthHash": "793920175608d000688a88fce14f4c04efdedc58"
+  },
+  "ReachFix-1.12.2-1.1.3.jar": {
+    "jarName": "ReachFix-1.12.2-1.1.3.jar",
+    "modId": "reachfix",
+    "version": "1.1.3",
+    "curseForgeHash": 3259103443,
+    "modrinthHash": "d9994c089b4f30de9f7be0690624a535716456d1"
   },
   "serializationisbad-1.5.2.jar": {
     "jarName": "serializationisbad-1.5.2.jar",
