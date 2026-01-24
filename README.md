@@ -12,6 +12,10 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 ---
 
 ## Installation Instructions
+### Fresh Installations
+
+### Modpack Updating
+
 
 ---
 
@@ -23,6 +27,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant)** - An advanced crash log handler with several important debugging tools. Used in the BareBones template to locate incompatible and depreciated mods.
 - **[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)** - A collection of small fixes for Minecraft, most notably an improved implementation of the [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) mod.
 - **[Flare](https://www.curseforge.com/minecraft/mc-mods/flare)** - A performance profiler for 1.12.2 clients and servers based off of Spark.
+- **[FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)** - Reduces CPU and GPU usage when the game window is inactive or minimized.
 - **[Gnetum](https://www.curseforge.com/minecraft/mc-mods/gnetum)** - Improves performance in GUIs by distributing HUD updates over multiple frames.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)** - An updated fork of JEI for 1.12.2 with optimizations and more features.
 - **[JEI Area Fixer](https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer)** - A collection of mod fixes to prevent GUI overlap with JEI/HEI.
@@ -59,9 +64,28 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 ---
 
 ## FAQ
-**Q:** Why wasn't Optifine included?
-**A:** Optifine is extremely outdated and causes incompatibilities with a number of mods. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. Be sure to also include [OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) when adding Optifine.
-
-**Q:** 
-**A:** 
-
+<details>
+<summary>Why wasn't Optifine included?</summary>
+<blockquote>
+Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. Be sure to also include [OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) when adding Optifine.
+</blockquote>
+</details>
+<p>
+<details>
+<summary>Why wasn't &#x3C;insert mod here&#x3E; included?</summary>
+<blockquote>
+<p>
+When it comes to optimizations and fixes there is a lot of misinformation in the community. Bad actors will describe massive performance gains while posting mods that do nothing (Performant) or actively make game performance worse (Frustum Culling).
+</p>
+<p>
+BareBones is configured to automatically detect the majority of these problematic mods, but you should always be wary of any mod describing itself as an "Optimization" or "Performance" mod.
+</p>
+</blockquote>
+</details>
+<p>
+<details>
+<summary>Where can I find a list of updated mods and mod forks?</summary>
+<blockquote>
+<p>CleanroomMC maintains a incomplete, but constantly updated list of depreciated mods and their forks. You can find this list here: <a href="https://cleanroommc.com/wiki/end-user-guide/preparing-your-modpack">Preparing Your Modpack </a></p>
+</blockquote>
+</details>
