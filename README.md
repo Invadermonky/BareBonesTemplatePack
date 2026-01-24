@@ -67,7 +67,12 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 <details>
 <summary>Why wasn't Optifine included?</summary>
 <blockquote>
-Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. Be sure to also include [OptiNotFine](https://www.curseforge.com/minecraft/mc-mods/optinotfine) when adding Optifine.
+<p>
+Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. 
+</p>
+<p>
+If you do choose to include Optifine, be sure to also add <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a> to your modpack instance.
+</p>
 </blockquote>
 </details>
 <p>
