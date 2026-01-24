@@ -231,9 +231,17 @@
 		"msg": "FPS Boost has little to no performance gain.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
+	"fpsoptimizer": {
+		"msg": "FPS Optimizer has little to no performance gain. It is highly recommended to use FPS Reducer instead.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"framevoidpatch": {
 		"msg": "Frame Void Patch has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
+	},
+	"frustumculling": {
+		"msg": "Frustum Culling (More FPS) will cause incompatibilities with no performance gain. Universal Tweaks already has its own Frustum Culling tweak.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
 	},
 	"getittogetherdrops": {
 		"msg": "Get It Together, Drops! has been merged into Universal Tweaks.<br>Fix: Delete $JAR_NAME$ from the mods folder.",
