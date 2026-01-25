@@ -59,38 +59,40 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Roughly Enough IDs](https://www.curseforge.com/minecraft/mc-mods/reid)** - Extends the block, item, biome, potion, and enchantment ID limits. Required for large modpacks.
 - **[ScalingGUIs](https://www.curseforge.com/minecraft/mc-mods/scalingguis)** - Decouples the scaling of individual GUIs, the HUD, and Tooltips. Extremely useful for anyone playing at resolutions higher than 1080p.
 - **[Server Tab Info](https://www.curseforge.com/minecraft/mc-mods/server-tab-info)** - Adds a the mean tick time and ticks per second (TPS) to the server info tab. Extremely useful for detecting TPS lag on servers or single player worlds.
-- **[ZS Packet](https://www.curseforge.com/minecraft/mc-mods/zs-packet)** - Improves client to server and server to client packet compression. Does provide a very small performance increase when hundreds of packets are being generated every second (which is ***extremely*** rare).
+- **[ZS Packet](https://www.curseforge.com/minecraft/mc-mods/zs-packet)** - Improves client to server and server to client packet compression. Provides a very small performance increase when hundreds of packets are being generated every second (which is ***extremely*** rare).
 
 ---
 
 ## FAQ
 <details>
-<summary>Why wasn't Optifine included?</summary>
-<blockquote>
-<p>
-Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. 
-</p>
-<p>
-If you do choose to include Optifine, be sure to also add <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a> to your modpack instance.
-</p>
-</blockquote>
+  <summary>Why wasn't Optifine included?</summary>
+  <blockquote>
+    <p>
+      Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. 
+    </p>
+    <p>
+      If you do choose to include Optifine, be sure to also add <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a> to your modpack instance.
+    </p>
+  </blockquote>
 </details>
 <p>
 <details>
-<summary>Why wasn't &#x3C;insert mod here&#x3E; included?</summary>
-<blockquote>
-<p>
-When it comes to optimizations and fixes there is a lot of misinformation in the community. Bad actors will describe massive performance gains while posting mods that do nothing (Performant) or actively make game performance worse (Frustum Culling).
-</p>
-<p>
-BareBones is configured to automatically detect the majority of these problematic mods, but you should always be wary of any mod describing itself as an "Optimization" or "Performance" mod.
-</p>
-</blockquote>
+  <summary>Why wasn't &#x3C;insert mod here&#x3E; included?</summary>
+  <blockquote>
+    <p>
+      When it comes to optimizations and fixes there is a lot of misinformation in the community. Bad actors will describe massive performance gains while posting mods that do nothing (Performant) or actively make game performance worse (Frustum Culling).
+    </p>
+    <p>
+      BareBones is configured to automatically detect the majority of these problematic mods, but you should always be wary of any mod describing itself as an "Optimization" or "Performance" mod.
+    </p>
+  </blockquote>
 </details>
 <p>
 <details>
-<summary>Where can I find a list of updated mods and mod forks?</summary>
-<blockquote>
-<p>CleanroomMC maintains a incomplete, but constantly updated list of depreciated mods and their forks. You can find this list here: <a href="https://cleanroommc.com/wiki/end-user-guide/preparing-your-modpack">Preparing Your Modpack </a></p>
-</blockquote>
+  <summary>Where can I find a list of updated mods and mod forks?</summary>
+  <blockquote>
+    <p>
+      CleanroomMC maintains a incomplete, but constantly updated list of depreciated mods and their forks. You can find this list here: <a href="https://cleanroommc.com/wiki/end-user-guide/preparing-your-modpack">Preparing Your Modpack </a>
+    </p>
+  </blockquote>
 </details>
