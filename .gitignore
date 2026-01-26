@@ -5,4 +5,8 @@
 /saves/
 /vintagefix/
 .curseclient
+options.txt
 minecraftinstance.json
+user-prefs.json
+usercache.json
+usernamecache.json
