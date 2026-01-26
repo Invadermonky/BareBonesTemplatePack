@@ -65,6 +65,32 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 
 ## FAQ
 <details>
+  <summary>Are there any other render optimization mods?</summary>
+  <blockquote>
+    <p>
+      Yes, there are three:
+      <ul>
+        <li><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar&x=c2f6">Optifine</a>
+        <li><a href="https://github.com/kappa-maintainer/Celeritas-auto-build/releases">Celeritas</a> (Cleanroom Exclusive)
+        <li><a href="https://www.curseforge.com/minecraft/mc-mods/nothirium">Nothirium</a>
+      </ul>
+    </p>
+    <p>
+        The effectiveness of these mods varies heavily from user to user, with some people getting significantly better performance, while others get worse performance.
+    </p>
+    <p>
+        While not included in the 'Optional' section of this template, <a href="https://www.curseforge.com/minecraft/mc-mods/nothirium">Nothirium</a> is the BareBones recommendation. If adding Nothirium to your pack, be sure to also include <a href="https://www.curseforge.com/minecraft/mc-mods/naughthirium">Naughthirium</a>.
+    </p>
+    <p>
+        Should you choose to add Optifine to your modpack, be sure to also include <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a>.
+    </p>
+    <p>
+        You can read more information about these mods here: <a href="https://cleanroommc.com/wiki/end-user-guide/preparing-your-modpack#render-optimization-mods">Render optimization mods </a>
+    </p>
+  </blockquote>
+</details>
+<p>
+<details>
   <summary>Why wasn't Optifine included?</summary>
   <blockquote>
     <p>
