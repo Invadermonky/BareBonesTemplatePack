@@ -295,6 +295,10 @@
 		"msg": "Ksyxis has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"laglessmod": {
+		"msg": "Lagless Mod Lite will cause incompatibilities with no performance gain. Universal Tweaks already has its own Frustum Culling tweak.<p>Fix: Delete $JAR_NAME$ from the mods folder",
+		"should_crash_on_startup": false
+	},
 	"lanserverproperties": {
 		"msg": "Lan Server Properties has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
