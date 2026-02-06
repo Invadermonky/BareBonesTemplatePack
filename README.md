@@ -92,6 +92,22 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 
 <p>
 <details>
+  <summary>Why is Entity/Particle Culling not included by default?</summary>
+  <blockquote>
+    <p>
+      Because these mods need to perform calculations to determine whether an object should be culled, culling mods always have some processing overhead.
+    </p>
+    <p>
+      This means that these mods only have a performance increase once a world or base reaches a considerable number of entities or tile entities that are loaded and rendered.
+    </p>
+    <p>
+      These mods are safe to include by default, but their actual performance increase will vary on a case by case basis.
+    </p>
+  </blockquote>
+</details>
+
+<p>
+<details>
   <summary>Why wasn't Optifine included?</summary>
   <blockquote>
     <p>
@@ -118,7 +134,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 
 <p>
 <details>
-  <summary>How can I spot potentially problematic mods?</summary>
+  <summary>How can I spot questionable mods?</summary>
   <blockquote>
     <p>
       BareBones includes a number of features to help you find mods that cause issues, but there are new problematic mods being added to CurseForge and Modrinth on a daily basis. 
@@ -135,7 +151,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
       <li><b>Beware small file sizes.</b> While Minecraft mods are not exactly large, mod jars that are smaller than 20 KB are extremely rare. When they are that small, chances are that their effect is equally limited.</li>
     </ol>
     <p>
-      While none of these signs disqualify a mod on their own, together they serve as a decent litmus test for questionable mods.
+      While none of these signs are enough to disqualify a mod on their own, together they serve as a decent litmus test for questionable mods.
     </p>
   </blockquote>
 </details>
