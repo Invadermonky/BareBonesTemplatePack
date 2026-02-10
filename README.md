@@ -92,7 +92,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 
 <p>
 <details>
-  <summary>Why is Entity/Particle Culling not included by default?</summary>
+  <summary>Why wasn't Entity/Particle Culling included by default?</summary>
   <blockquote>
     <p>
       Because these mods need to perform calculations to determine whether an object should be culled, culling mods always have some processing overhead.
@@ -145,9 +145,10 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
     <ol>
       <li><b>The mod description boasts improved FPS or increased optimization.</b> Watch out descriptions that are incredibly vague and use key phrases such as "improved FPS", "reduced CPU/GPU load", "increased performance", or "improved optimization". </li>
       <li><b>Don't fall for the hype.</b> Very few (if any) mods can actually boost performance by 50% or by 100 FPS. Be wary of any mod that boasts extremely high performance gains.</li>
+      <li><b>Tons of features.</b> If a mod description seems like it is too good to be true, it probably is. AI generated text leans towards sycophantic tones, telling you what you want to hear. Hundreds of additions with no incompatibilities is virtually impossible in modded environments.</li>
       <li><b>The mod license is All Rights Reserved.</b> While this isn't an immediate indication the mod is problematic, most mods that actually improve performance use open source licenses so other people can learn from or help improve the mod.</li>
       <li><b>The mod is closed source.</b> Most actual performance mods will post a link to a source repository so people can view the code. A closed source optimization mod is a good indicator that the mod author is trying to hide something.</li>
-      <li><b>The description heavily uses colored text symbols.</b> While mod authors do try to spruce up their description pages, AI generated descriptions heavily utilize colored symbols for all of their section headers. If a description is AI generated, there's a high chance the mod is as well.</li>
+      <li><b>The description heavily uses colored text symbols or emojis.</b> While mod authors do try to spruce up their description pages, AI generated descriptions heavily utilize colored symbols for all of their section headers. If a description is AI generated, there's a high chance the mod is as well.</li>
       <li><b>Beware small file sizes.</b> While Minecraft mods are not exactly large, mod jars that are smaller than 20 KB are extremely rare. When they are that small, chances are that their effect is equally limited.</li>
     </ol>
     <p>
