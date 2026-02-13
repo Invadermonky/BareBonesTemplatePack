@@ -25,6 +25,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           Run the modpack.
           <ul>
             <li>If CrashAssistant notifies you of any problematic mods, remove them accordingly.</li>
+            <li>If duplicate mod ids are found, remove any outdated versions.</li>
           </ul>
         </li>
         <li>Once the modpack has launched, either enter a new world and click the provided links in the chat window or navigate to <code>&#x3C;modpackinstance&#x3E;/config/packcompanion/outputs</code> and open the most recent <code>html</code> output log.</li>
