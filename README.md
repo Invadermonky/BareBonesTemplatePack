@@ -3,7 +3,7 @@ BareBones is a template modpack for Minecraft 1.12.2 that aims to create a minim
 
 Effort was made to ensure that the only mods included in the template by default are those that provide significant QoL improvements, game optimizations, or bugfixes without directly affecting gameplay.
 
-BareBones also includes a pre-configured Crash Assistant problematic mods config, allowing users to easily identify mods that cause significant issues, or those that are superseded by other mods within the pack.
+BareBones also includes a pre-configured Crash Assistant problematic mods config as well as the custom built PackCompanion mod, allowing users to easily identify mods that cause issues or are superseded by other mods.
 
 This pack ***DOES NOT*** include any new content or gameplay modifications outside of minor tweaks present in Universal Tweaks.
 
@@ -51,6 +51,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
             <li>Just Enough Items</li>
             <li>Mouse Tweaks</li>
             <li>Phosphor</li>
+            <li>Spark/Spark Unforged</li>
           </ul>
         </li>
         <li>Create an instance of the BareBones pack template using your preferred launcher.</li>
@@ -59,6 +60,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           Run the modpack.
           <ul>
             <li>If CrashAssistant notifies you of any problematic mods, remove them accordingly.</li>
+            <li>If duplicate mod ids are found, remove any outdated versions.</li>
           </ul>
         </li>
         <li>Once the modpack has launched, either enter a new world and click the provided links in the chat window or navigate to <code>&#x3C;modpackinstance&#x3E;/config/packcompanion/outputs</code> and open the most recent <code>html</code> output log.</li>
@@ -151,7 +153,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
     <summary>Why wasn't Entity/Particle Culling included by default?</summary>
     <blockquote>
       <p>
-        Because these mods need to perform calculations to determine whether an object should be culled, culling mods always have some processing overhead.
+        Culling mods need to perform calculations to determine whether an object should be culled. As a result, they will always have some processing overhead.
       </p>
       <p>
         This means that these mods only have a performance increase once a world or base reaches a considerable number of entities or tile entities that are loaded and rendered.
