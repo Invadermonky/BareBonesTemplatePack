@@ -55,6 +55,13 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
             <li>Spark/Spark Unforged</li>
           </ul>
         </li>
+        <li>
+          Update the following mods if they are present.
+          <ul>
+            <li>Dynamic Surroundings</li>
+            <li>Orelib</li>
+          </ul>
+        </li>
         <li>Create an instance of the BareBones pack template using your preferred launcher.</li>
         <li>Copy the <code>config</code> and <code>mods</code> folders from the BareBones instance into the other modpack.</li>
         <li>
