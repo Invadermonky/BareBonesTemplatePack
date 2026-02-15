@@ -7,6 +7,10 @@
 		"msg": "AI Improvements has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"appleskin": {
+		"msg": "Outdated and replaced by LemonSkin.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
 	"armorcurve": {
 		"msg": "Armor Curve has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -153,6 +157,10 @@
 	},
 	"drawerfps": {
 		"msg": "DrawerFPS Legacy has been merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
+	"dsurround": {
+		"msg": "Very Problematic mod. if you still intend to use it, make sure you update this to the latest version<p>Fix: Update the mod or delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
 	"dupefixproject": {
@@ -395,6 +403,10 @@
 		"msg": "Old Combat Mechanics has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
 	},
+	"orelib": {
+		"msg": "Dependency on DynamicSurroundings. if you still intend to use it, make sure you update this to the latest version<p>Fix: Update the mod or delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": false
+	},
 	"overpowered_mending": {
 		"msg": "Overpowered Mending has been rewritten and merged into Universal Tweaks.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": false
@@ -413,6 +425,10 @@
 	},
 	"performant": {
 		"msg": "Performant is an empty mod jar. All code in the mod has been commented out.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
+		"should_crash_on_startup": true
+	},
+	"phosphor-lighting": {
+		"msg": "Phosphor can cause a lot of crashes, and is deprecated.<p>Fix: Delete $JAR_NAME$ from the mods folder.",
 		"should_crash_on_startup": true
 	},
 	"pigium1_12_2": {
