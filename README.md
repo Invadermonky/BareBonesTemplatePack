@@ -58,7 +58,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         <li>
           Update the following mods to their most recent version if they are present.
           <ul>
-            <li>Dynamic Surroundings
+            <li>Dynamic Surroundings</li>
             <li>Orelib</li>
           </ul>
         </li>
