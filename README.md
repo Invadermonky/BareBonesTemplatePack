@@ -56,9 +56,9 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           </ul>
         </li>
         <li>
-          Update the following mods if they are present.
+          Update the following mods to their most recent version if they are present.
           <ul>
-            <li>Dynamic Surroundings</li>
+            <li>Dynamic Surroundings
             <li>Orelib</li>
           </ul>
         </li>
@@ -72,7 +72,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           </ul>
         </li>
         <li>Once the modpack has launched, either enter a new world and click the provided links in the chat window or navigate to <code>&#x3C;modpackinstance&#x3E;/config/packcompanion/outputs</code> and open the most recent <code>html</code> output log.</li>
-        <li>The PackCompanion output features a list of recommended actions to ensure a stable modded environment. Because some mod updates may break CraftTweaker scripts, it is advised to update mods a few at a time. If errors occur, you can either update the scripts to reflect any changes or revert to the previous version of the mod.</li>
+        <li>The PackCompanion output features a list of recommended actions to ensure a stable modded environment. Because some mod updates may break CraftTweaker scripts, it is advised to only update a few mods at a time. If errors occur, you can either update the scripts to reflect any changes or revert to the previous version of the mod.</li>
         <li>Once all changes have been made, delete or disable the PackCompanion mod.</li>
         <li>Launch the modpack and enjoy your updated instance!</li>
       </ol>
