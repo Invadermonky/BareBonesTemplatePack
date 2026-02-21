@@ -1,4 +1,4 @@
-# BareBones Template Modpack
+# BareBones Template Modpack (Cleanroom)
 BareBones is a template modpack for Minecraft 1.12.2 that aims to create a minimalistic standardized mod list that can be used as a base for new modpacks or a means of updating old modpacks to the new standards.
 
 Effort was made to ensure that the only mods included in the template by default are those that provide significant QoL improvements, game optimizations, or bugfixes without directly affecting gameplay.
@@ -30,7 +30,14 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         </li>
         <li>Once the modpack has launched, either enter a new world and click the provided links in the chat window or navigate to <code>&#x3C;modpackinstance&#x3E;/config/packcompanion/outputs</code> and open the most recent <code>html</code> output log.</li>
         <li>The PackCompanion output features a list of recommended actions to ensure a stable modded environment. Follow the advised actions whenever possible.</li>
-        <li>Once all changes have been made, delete or disable the PackCompanion mod.</li>
+        <li>
+          Once all changes have been made and Cleanroom is successfully launching, delete or disable the following mods.
+          <ul>
+            <li>ConfigAnytime</li>
+            <li>MixinBooter</li>
+            <li>PackCompanion</li>
+          </ul>
+        </li>
         <li>Launch the modpack and enjoy your updated instance!</li>
       </ol>
     </blockquote>
@@ -73,7 +80,14 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         </li>
         <li>Once the modpack has launched, either enter a new world and click the provided links in the chat window or navigate to <code>&#x3C;modpackinstance&#x3E;/config/packcompanion/outputs</code> and open the most recent <code>html</code> output log.</li>
         <li>The PackCompanion output features a list of recommended actions to ensure a stable modded environment. Because some mod updates may break CraftTweaker scripts, it is advised to only update a few mods at a time. If errors occur, you can either update the scripts to reflect any changes or revert to the previous version of the mod.</li>
-        <li>Once all changes have been made, delete or disable the PackCompanion mod.</li>
+        <li>
+          Once all changes have been made and Cleanroom is successfully launching, delete or disable the following mods.
+          <ul>
+            <li>ConfigAnytime</li>
+            <li>MixinBooter</li>
+            <li>PackCompanion</li>
+          </ul>
+        </li>
         <li>Launch the modpack and enjoy your updated instance!</li>
       </ol>
     </blockquote>
@@ -86,11 +100,14 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Advancement Locator](https://www.curseforge.com/minecraft/mc-mods/advancement-locator)** - A QoL mod that adds left click interaction to chat frame Advancements as well as an Advancement locator command.
 - **[Alfheim Lighting Engine](https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine)** - A lighting engine replacement for Minecraft, optimized for performance and fixing many bugs. If you encounter issues with Alfheim, you can try using [燐/Hesperus](https://www.curseforge.com/minecraft/mc-mods/hesperus), though it is not recommended.
 - **[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)** - A collection of large optimizations targeted at 1.12.2.
-- **[ConfigAnytime](https://www.curseforge.com/minecraft/mc-mods/configanytime)** - A utility mod allowing early configuration loading. Used by Universal Tweaks and many other mods that modify Minecraft's code with mixins.
+- **[ConfigAnytime](https://www.curseforge.com/minecraft/mc-mods/configanytime)** - (Forge only) A utility mod allowing early configuration loading. Used by Universal Tweaks and many other mods that modify Minecraft's code with mixins.
+- **[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher)** - Relaunches Forge 1.12.2 environments with the Cleanroom Mod Loader.
+- **[ConfigAnytime](https://www.curseforge.com/minecraft/mc-mods/configanytime)** - (Forge only) A utility mod allowing early configuration loading. Used by Universal Tweaks and many other mods that modify Minecraft's code with mixins.
 - **[Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant)** - An advanced crash log handler with several important debugging tools. Used in the BareBones template to locate incompatible and depreciated mods.
 - **[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)** - A collection of small fixes for Minecraft, most notably an improved implementation of the [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) mod.
 - **[Flare](https://www.curseforge.com/minecraft/mc-mods/flare)** - A performance profiler for 1.12.2 clients and servers based off of Spark.
 - **[FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)** - Reduces CPU and GPU usage when the game window is inactive or minimized.
+- **[Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue)** - A universal incompatibility patching mod for Cleanroom Mod Loader.
 - **[Gnetum](https://www.curseforge.com/minecraft/mc-mods/gnetum)** - Improves performance in GUIs by distributing HUD updates over multiple frames.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)** - An updated fork of JEI for 1.12.2 with optimizations and more features.
 - **[JEI Area Fixer](https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer)** - A collection of mod fixes to prevent GUI overlap with JEI/HEI.
@@ -100,7 +117,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[PackCompanion]** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
 - **[Reach Fix](https://www.curseforge.com/minecraft/mc-mods/reach-fix)** - Fixes the reach distance attribute not applying to player and entity attacks. Also improves hitbox interpolation when attacking entities.
 - **[Red Core](https://www.curseforge.com/minecraft/mc-mods/red-core)** - A library mod used by Alfheim Lighting Engine.
-- **[SerializationIsBad](https://www.curseforge.com/minecraft/mc-mods/serializationisbad)** - (Forge only) Fixes a number of serious security vulnerabilities present in several mods.
+- **[Scalar Legacy](https://www.curseforge.com/minecraft/mc-mods/scalar-legacy)** - The Scala 2.11.x provider for Cleanroom Mod Loader.
 - **[Sound Device Options](https://www.curseforge.com/minecraft/mc-mods/more-sound-config)** - A small mod that adds an option to switch the sound output device without reloading the game.
 - **[StellarCore](https://www.curseforge.com/minecraft/mc-mods/stellarcore)** - A collection of tweaks, optimizations and fixes targeted at 1.12.2.
 - **[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)** - A community project to consolidate various bugfixes and tweaks into a single solution for Minecraft 1.12.2.
@@ -119,7 +136,6 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Particle Culling](https://www.curseforge.com/minecraft/mc-mods/particle-culling)** - Prevents particles outside the player's view from rendering. May cause inconsistent particle behavior. Performance increases may vary.
 - **[Packet Fixer](https://www.curseforge.com/minecraft/mc-mods/packet-fixer)** - Fixes a number of packet issues in Minecraft. Slight overlap with Universal Tweaks.
 - **[Potion Descriptions (Forge)](https://www.curseforge.com/minecraft/mc-mods/potion-descriptions)** - Adds descriptions to potions describing their effects. Not as widely supported as Enchantment Descriptions.
-- **[Raw Mouse Input - Blessed Edition](https://www.curseforge.com/minecraft/mc-mods/raw-mouse-input-blessed-edition)** - (Forge only) Makes Minecraft 1.12.2 use raw mouse input, making mouse input feel smoother.
 - **[Roughly Enough IDs](https://www.curseforge.com/minecraft/mc-mods/reid)** - Extends the block, item, biome, potion, and enchantment ID limits. Required for large modpacks.
 - **[ScalingGUIs](https://www.curseforge.com/minecraft/mc-mods/scalingguis)** - Decouples the scaling of individual GUIs, the HUD, and Tooltips. Extremely useful for anyone playing at resolutions higher than 1080p.
 - **[Server Tab Info](https://www.curseforge.com/minecraft/mc-mods/server-tab-info)** - Adds a the mean tick time and ticks per second (TPS) to the server info tab. Extremely useful for detecting TPS lag on servers or single player worlds.
