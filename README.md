@@ -20,6 +20,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
     <blockquote>
       <ol>
         <li>Download or import the BareBones modpack into your preferred launcher.</li>
+        <li>Add any desired mods from the 'Optional' section of this readme to the BareBones instance.</li>
         <li>Add any mods you want included in the modpack.</li>
         <li>
           Run the modpack.
@@ -63,6 +64,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           </ul>
         </li>
         <li>Create an instance of the BareBones pack template using your preferred launcher.</li>
+        <li>Add any desired mods from the 'Optional' section of this readme to the BareBones instance.</li>
         <li>Copy the <code>config</code> and <code>mods</code> folders from the BareBones instance into the other modpack.</li>
         <li>
           Run the modpack.
