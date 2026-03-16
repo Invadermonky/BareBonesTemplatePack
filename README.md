@@ -99,7 +99,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)** - An updated fork of AppleSkin, adding item food value tooltips and advanced hunger bar appearance.
 - **[MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)** - (Forge only) A standardized library used for bytecode manipulation. Required by most mods in this pack.
 - **[Mouse Tweaks Unofficial](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks-unofficial)** - A continuation of MouseTweaks for Minecraft 1.12.2, adding improved mouse GUI interactions.
-- **[PackCompanion]** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
+- **[PackCompanion](https://www.curseforge.com/minecraft/mc-mods/packcompanion)** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
 - **[Reach Fix](https://www.curseforge.com/minecraft/mc-mods/reach-fix)** - Fixes the reach distance attribute not applying to player and entity attacks. Also improves hitbox interpolation when attacking entities.
 - **[Red Core](https://www.curseforge.com/minecraft/mc-mods/red-core)** - A library mod used by Alfheim Lighting Engine.
 - **[SerializationIsBad](https://www.curseforge.com/minecraft/mc-mods/serializationisbad)** - (Forge only) Fixes a number of serious security vulnerabilities present in several mods.
