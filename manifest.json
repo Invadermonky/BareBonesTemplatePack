@@ -10,9 +10,9 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "Bare Bones Template (Forge)",
-  "version": "",
-  "author": "",
+  "name": "Bare Bones Template (Cleanroom)",
+  "version": "1.0.0",
+  "author": "Invadermonky, icarussone, ACGaming, Thermonuclear_minecraft_engineer",
   "files": [
     {
       "projectID": 461660,
