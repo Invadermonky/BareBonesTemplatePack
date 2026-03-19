@@ -5,6 +5,8 @@ Effort was made to ensure that the only mods included in the template by default
 
 BareBones also includes a pre-configured Crash Assistant problematic mods config as well as the custom built PackCompanion mod, allowing users to easily identify mods that cause issues or are superseded by other mods.
 
+To make the transition seamless, BareBones also includes an experimental build of cleanroom relauncher, allowing to adopt a cleanroom environement without any user input, as well as a full fledged in-game config menu!
+
 This pack ***DOES NOT*** include any new content or gameplay modifications outside of minor tweaks present in Universal Tweaks.
 
 This pack ***DOES NOT*** include any type of shader or lighting enhancement mods beyond those that directly improve performance.
