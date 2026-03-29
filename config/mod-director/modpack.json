@@ -1,0 +1,9 @@
+{
+  "packName": "BareBones Template Pack",
+  "icon":
+  {
+    "path": "resources/icons/icon_256_bb.png",
+    "width": 256,
+    "height": 256
+  }
+}
