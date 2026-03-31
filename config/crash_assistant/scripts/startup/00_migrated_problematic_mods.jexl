@@ -1,5 +1,5 @@
 var allMods = ModListUtils.getCurrentModList(true);
-var mods = allMods.stream().toMap(m -> m.modId, m -> m);
+var mods = ModListUtils.getCurrentModListMappedToModId();
 
 var m_aiimprovements = mods.get("aiimprovements");
 if (m_aiimprovements != null) {
@@ -481,6 +481,12 @@ var m_vintagium = mods.get("vintagium");
 if (m_vintagium != null) {
     var warn = Startup.addCrashWarning("Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<p>Fix: Delete " + m_vintagium.jarName + " from the mods folder.");
     warn.withModActions(m_vintagium);
+    Startup.markForCrash();
+}
+var m_jei = mods.get("jei");
+if (m_jei != null && VersionUtils.isLower(m_jei.getVersion(), "4.16.1.1014")) {
+    var warn = Startup.addCrashWarning("JEI 1.12 is outdated and incompatible. Please replace it with HEI.<p>Fix: Delete " + m_jei.getJarName() + " from the mods folder.");
+    warn.withModActions(m_jei);
     Startup.markForCrash();
 }
 
