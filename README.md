@@ -111,7 +111,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Gnetum](https://www.curseforge.com/minecraft/mc-mods/gnetum)** **(1.3.5)** - Improves performance in GUIs by distributing HUD updates over multiple frames.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)** **(4.29.15)** - An updated fork of JEI for 1.12.2 with optimizations and more features.
 - **[JEI Area Fixer](https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer)** **(2.3.0)** - A collection of mod fixes to prevent GUI overlap with JEI/HEI.
-- **[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)** - An updated fork of AppleSkin, adding item food value tooltips and advanced hunger bar appearance.
+- **[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)** **(4.0.0)** - An updated fork of AppleSkin, adding item food value tooltips and advanced hunger bar appearance.
 - **[MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)** **(10.7)** - A standardized library used for bytecode manipulation. Required by most mods in this pack.
 - **[Mouse Tweaks Unofficial](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks-unofficial)** **(3.1.5)** - A continuation of MouseTweaks for Minecraft 1.12.2, adding improved mouse GUI interactions.
 - **[PackCompanion](https://www.curseforge.com/minecraft/mc-mods/packcompanion)** **(1.0.1)** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
