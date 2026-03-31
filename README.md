@@ -36,8 +36,6 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         <li>
           Once all changes have been made and Cleanroom is successfully launching, delete or disable the following mods.
           <ul>
-            <li>ConfigAnytime</li>
-            <li>MixinBooter</li>
             <li>PackCompanion</li>
           </ul>
         </li>
@@ -87,8 +85,6 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         <li>
           Once all changes have been made and Cleanroom is successfully launching, delete or disable the following mods.
           <ul>
-            <li>ConfigAnytime</li>
-            <li>MixinBooter</li>
             <li>PackCompanion</li>
           </ul>
         </li>
