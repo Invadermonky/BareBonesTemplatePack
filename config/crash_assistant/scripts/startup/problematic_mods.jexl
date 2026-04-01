@@ -1,3 +1,4 @@
+// Credits: Thermonuclear_minecraft_engineer, Invader, Icarus, ACGaming
 // Map of problematic mods
 // Format: modId -> [message, maxVersionExclusive (null = always flag)]
 var problematicMods = {
