@@ -103,7 +103,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)** **(4.0.0)** - An updated fork of AppleSkin, adding item food value tooltips and advanced hunger bar appearance.
 - **[MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)** **(10.7)** - A standardized library used for bytecode manipulation. Required by most mods in this pack.
 - **[Mouse Tweaks Unofficial](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks-unofficial)** **(3.1.5)** - A continuation of MouseTweaks for Minecraft 1.12.2, adding improved mouse GUI interactions.
-- **[PackCompanion](https://www.curseforge.com/minecraft/mc-mods/packcompanion)** **(1.0.1)** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
+- **[PackCompanion](https://www.curseforge.com/minecraft/mc-mods/packcompanion)** **(1.0.2)** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
 - **[Reach Fix](https://www.curseforge.com/minecraft/mc-mods/reach-fix)** **(1.1.3)** - Fixes the reach distance attribute not applying to player and entity attacks. Also improves hitbox interpolation when attacking entities.
 - **[Red Core](https://www.curseforge.com/minecraft/mc-mods/red-core)** **(0.7.1)** - A library mod used by Alfheim Lighting Engine.
 - **[Scalar Legacy](https://www.curseforge.com/minecraft/mc-mods/scalar-legacy)** **(1.0.1)** - The Scala 2.11.x provider for Cleanroom Mod Loader.
