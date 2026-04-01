@@ -107,7 +107,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)** **(2.3.6)** - A collection of small fixes for Minecraft, most notably an improved implementation of the [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) mod.
 - **[Flare](https://www.curseforge.com/minecraft/mc-mods/flare)** **(0.7.0)** - A performance profiler for 1.12.2 clients and servers based off of Spark.
 - **[FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)** **(1.20)** - Reduces CPU and GPU usage when the game window is inactive or minimized.
-- **[Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue)** **(0.23.3)** - A universal incompatibility patching mod for Cleanroom Mod Loader.
+- **[Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue)** **(0.23.4)** - A universal incompatibility patching mod for Cleanroom Mod Loader.
 - **[Gnetum](https://www.curseforge.com/minecraft/mc-mods/gnetum)** **(1.3.5)** - Improves performance in GUIs by distributing HUD updates over multiple frames.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)** **(4.29.15)** - An updated fork of JEI for 1.12.2 with optimizations and more features.
 - **[JEI Area Fixer](https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer)** **(2.3.0)** - A collection of mod fixes to prevent GUI overlap with JEI/HEI.
