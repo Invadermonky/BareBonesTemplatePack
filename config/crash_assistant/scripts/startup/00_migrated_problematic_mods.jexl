@@ -1,492 +1,99 @@
+// Map of problematic mods
+// Format: modId -> [message, maxVersionExclusive (null = always flag)]
+var problematicMods = {
+    "aiimprovements":    ["AI Improvements has been rewritten and merged into Universal Tweaks.", null],
+    "appleskin":         ["Outdated. BareBones replaces it with LemonSkin.", null],
+    "astatine":          ["Astatine has no performance gain and may even reduce performance for some users.", null],
+    "attributefix":      ["Attribute Fix has been rewritten and merged into Universal Tweaks.", null],
+    "bannerpatch":       ["Banner Patch has been merged into Universal Tweaks.", null],
+    "bedpatch":          ["Bed Patch's fix already exists within Forge / Cleanroom and doesn't do anything when installed.", null],
+    "betterfps":         ["BetterFPS is known to cause crashes with little to no performance gain. Many of the improvements are already included in other mods.", null],
+    "betterplacement":   ["Better Placement has been rewritten and merged into Universal Tweaks.", null],
+    "biggerchathistory": ["Bigger Chat History has been rewritten and merged into Universal Tweaks.", null],
+    "biggerpacketsplz":  ["Bigger Packets Please has been merged into Universal Tweaks.", null],
+    "blockdispenser":    ["Block Dispenser has been merged into Universal Tweaks.", null],
+    "blockoverlayfix":   ["Block Overlay Fix has been rewritten and merged into Universal Tweaks.", null],
+    "bowinfinityfix":    ["Bow Infinity Fix has been rewritten and merged into Universal Tweaks.", null],
+    "clumps":            ["Clumps is superseded by Fixeroo, which is included in BareBones.", null],
+    "customspawner":     ["Custom Mob Spawner is very outdated and WILL screw up mob spawns in many mods. If you are using Mo' Creatures, it is highly recommended to use Mo' Creatures Extended instead which removes the dependency.", null],
+    "damagetilt":        ["Damage Tilt has been merged into Universal Tweaks.", null],
+    "defaultlanport":    ["Default LAN Port has been rewritten and merged into Universal Tweaks.", null],
+    "deuf":              ["Duplicate Entity UUID Fix has been rewritten and merged into Universal Tweaks.", null],
+    "diethopper":        ["Diet Hoppers has been rewritten and merged into Universal Tweaks.", null],
+    "drawerfps":         ["DrawerFPS has been merged into Universal Tweaks.", null],
+    "dupefixproject":    ["DupeFix Project is not compatible with MixinBooter. Universal Tweaks includes it already.", null],
+    "enablecheats":      ["Enable Cheats has been merged into Universal Tweaks.", null],
+    "entity_desync_fix": ["Entity Desync Fix has been rewritten and merged into Universal Tweaks.", null],
+    "erebusfix":         ["Erebus Fix has been rewritten and merged into Universal Tweaks.", null],
+    "essential":         ["Essential Mod has questionable implementation that makes it incompatible with several mods including CensoredASM and Forgelin-Continuous. It is recommended to use e4mc Retro (Proxy) or Lan UPNP (Non-Proxy) instead.<p>If you're not sure how Essential Mod got installed, a mod you downloaded may be potentially installing it.", null],
+    "experiencebugfix":  ["Fix Experience Bug has been merged into Universal Tweaks.", null],
+    "eyltrafix":         ["Elytra-Fix has been rewritten and merged into Universal Tweaks.", null],
+    "fastleafdecay":     ["Fast Leaf Decay has been rewritten and merged into Universal Tweaks.", null],
+    "fencejumper":       ["Fence Jumper has been rewritten and merged into Universal Tweaks.", null],
+    "foamfix":           ["FoamFix is superseded by VintageFix, which uses a better and more compatible implementation.", null],
+    "foodfix":           ["Food Fix has been rewritten and merged into Universal Tweaks.", null],
+    "fpsboostremake":    ["FPS Boost has little to no performance gain.", null],
+    "fpsoptimizer":      ["FPS Optimizer has little to no performance gain.", null],
+    "framevoidpatch":    ["Frame Void Patch has been merged into Universal Tweaks.", null],
+    "frustumculling":    ["Frustum Culling (More FPS) will cause incompatibilities with no performance gain. Universal Tweaks already has its own Frustum Culling tweak.", null],
+    "givemebackmyhp":    ["Give Me Back My HP has been rewritten and merged into Universal Tweaks.", null],
+    "gpu_tape":          ["GPUTape has little to no performance gain.", null],
+    "helpfixer":         ["HelpFixer has been merged into Universal Tweaks.", null],
+    "horsestandstill":   ["Stupid Horse Stand Still has been rewritten and merged into Universal Tweaks.", null],
+    "keydescfix":        ["Keybind Description Fix has been merged into Universal Tweaks.", null],
+    "laglessmod":        ["Lagless Mod Lite will cause incompatibilities with no performance gain.", null],
+    "leafdecay":         ["Leaf Decay Accelerator has been rewritten and merged into Universal Tweaks.", null],
+    "loginhpfix":        ["Login HP Fix has been rewritten and merged into Universal Tweaks.", null],
+    "maxhealthfixer":    ["Max Health Fixer has been rewritten and merged into Universal Tweaks.", null],
+    "movingquickly":     ["MovingQuickly has been rewritten and merged into Universal Tweaks.", null],
+    "multithreadednoise":["Multithreaded Noise is known to cause crashes and is outdated.", null],
+    "mup":               ["Eigencraft Unofficial Patch / MUP is known to cause crashes and is outdated. Universal Tweaks already has most of its fixes and Alfheim already has lighting optimizations.", null],
+    "nanfix":            ["Entity NaN Health Fix has been rewritten and merged into Universal Tweaks.", null],
+    "netherportalfix":   ["NetherPortalFix has been rewritten and merged into Universal Tweaks.", null],
+    "nopotionshift":     ["No Potion Shift has been rewritten and merged into Universal Tweaks.", null],
+    "pathundergates":    ["Path Under Gates has been rewritten and merged into Universal Tweaks.", null],
+    "performant":        ["Performant is an empty mod jar. All code in the mod has been commented out.", null],
+    "phosphor-lighting": ["Phosphor can cause a lot of crashes, and is deprecated.", null],
+    "pigium1_12_2":      ["Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.", null],
+    "portaldupebegone":  ["PortalDupeBegone has been rewritten and merged into Universal Tweaks.", null],
+    "quickleafdecay":    ["Quick Leaf Decay has been rewritten and merged into Universal Tweaks.", null],
+    "redirectionor":     ["Redirectionor has little to no performance gain.", null],
+    "savemystronghold":  ["Save My Stronghold! has been merged into Universal Tweaks.", null],
+    "seedcopy":          ["SeedCopy has been rewritten and merged into Universal Tweaks.", null],
+    "spark":             ["Spark is superseded by Flare, which has more features included.", null],
+    "steamworldpatcher": ["SteamWorldPatcher has been merged into Universal Tweaks.", null],
+    "stg":               ["SwingThroughGrass has been rewritten and merged into Universal Tweaks.", null],
+    "surge":             ["Surge uses deprecated methods and has no performance gain. Salvaged features have been merged into Universal Tweaks.", null],
+    "texfix":            ["TexFix has been rewritten and merged into Universal Tweaks in CensoredASM.", null],
+    "tinkersoredictcache":["Tinkers OreDict Cache has been merged into Universal Tweaks and Tinkers' Antique.", null],
+    "unloader":          ["Unloader has been rewritten and merged into Universal Tweaks.", null],
+    "vanillafix":        ["VanillaFix has been rewritten and merged into CensoredASM.", null],
+    "villagermantlefix": ["Villager Mantle Fix has been merged into Universal Tweaks.", null],
+    "vintagium":         ["Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.", null],
+    // Version-gated: only flag if version is BELOW this threshold
+    "jei":               ["JEI 1.12 is outdated and incompatible. BareBones already includes .", "4.16.1.1014"],
+    "mousetweaks":       ["BareBones already includes a newer version of MouseTweaks", "3.1.5"]
+};
+
+// Loop
 var allMods = ModListUtils.getCurrentModList(true);
-var mods = ModListUtils.getCurrentModListMappedToModId();
 
-var m_aiimprovements = mods.get("aiimprovements");
-if (m_aiimprovements != null) {
-    var warn = Startup.addCrashWarning("AI Improvements has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_aiimprovements.jarName + " from the mods folder.");
-    warn.withModActions(m_aiimprovements);
-    Startup.markForCrash();
-}
-
-var m_appleskin = mods.get("appleskin");
-if (m_appleskin != null) {
-    var warn = Startup.addCrashWarning("Outdated and replaced by LemonSkin.<p>Fix: Delete " + m_appleskin.jarName + " from the mods folder.");
-    warn.withModActions(m_appleskin);
-    Startup.markForCrash();
-}
-
-var m_astatine = mods.get("astatine");
-if (m_astatine != null) {
-    var warn = Startup.addCrashWarning("Astatine has no performance gain and may even reduce performance for some users.<p>Fix: Delete " + m_astatine.jarName + " from the mods folder.");
-    warn.withModActions(m_astatine);
-    Startup.markForCrash();
-}
-
-var m_attributefix = mods.get("attributefix");
-if (m_attributefix != null) {
-    var warn = Startup.addCrashWarning("Attribute Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_attributefix.jarName + " from the mods folder.");
-    warn.withModActions(m_attributefix);
-    Startup.markForCrash();
-}
-
-var m_bannerpatch = mods.get("bannerpatch");
-if (m_bannerpatch != null) {
-    var warn = Startup.addCrashWarning("Banner Patch has been merged into Universal Tweaks.<p>Fix: Delete " + m_bannerpatch.jarName + " from the mods folder.");
-    warn.withModActions(m_bannerpatch);
-    Startup.markForCrash();
-}
-
-var m_bedpatch = mods.get("bedpatch");
-if (m_bedpatch != null) {
-    var warn = Startup.addCrashWarning("Bed Patch's fix already exists within Forge / Cleanroom and doesn't do anything when installed.<p>Fix: Delete " + m_bedpatch.jarName + " from the mods folder.");
-    warn.withModActions(m_bedpatch);
-    Startup.markForCrash();
-}
-
-var m_betterfps = mods.get("betterfps");
-if (m_betterfps != null) {
-    var warn = Startup.addCrashWarning("BetterFPS is known to cause crashes with little to no performance gain. Many of the improvements are already included in other mods.<p>Fix: Delete " + m_betterfps.jarName + " from the mods folder.");
-    warn.withModActions(m_betterfps);
-    Startup.markForCrash();
-}
-
-var m_betterplacement = mods.get("betterplacement");
-if (m_betterplacement != null) {
-    var warn = Startup.addCrashWarning("Better Placement has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_betterplacement.jarName + " from the mods folder.");
-    warn.withModActions(m_betterplacement);
-    Startup.markForCrash();
-}
-
-var m_biggerchathistory = mods.get("biggerchathistory");
-if (m_biggerchathistory != null) {
-    var warn = Startup.addCrashWarning("Bigger Chat History has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_biggerchathistory.jarName + " from the mods folder.");
-    warn.withModActions(m_biggerchathistory);
-    Startup.markForCrash();
-}
-
-var m_biggerpacketsplz = mods.get("biggerpacketsplz");
-if (m_biggerpacketsplz != null) {
-    var warn = Startup.addCrashWarning("Bigger Packets Please has been merged into Universal Tweaks.<p>Fix: Delete " + m_biggerpacketsplz.jarName + " from the mods folder.");
-    warn.withModActions(m_biggerpacketsplz);
-    Startup.markForCrash();
-}
-
-var m_blockdispenser = mods.get("blockdispenser");
-if (m_blockdispenser != null) {
-    var warn = Startup.addCrashWarning("Block Dispenser has been merged into Universal Tweaks.<p>Fix: Delete " + m_blockdispenser.jarName + " from the mods folder.");
-    warn.withModActions(m_blockdispenser);
-    Startup.markForCrash();
-}
-
-var m_blockoverlayfix = mods.get("blockoverlayfix");
-if (m_blockoverlayfix != null) {
-    var warn = Startup.addCrashWarning("Block Overlay Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_blockoverlayfix.jarName + " from the mods folder.");
-    warn.withModActions(m_blockoverlayfix);
-    Startup.markForCrash();
-}
-
-var m_bowinfinityfix = mods.get("bowinfinityfix");
-if (m_bowinfinityfix != null) {
-    var warn = Startup.addCrashWarning("Bow Infinity Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_bowinfinityfix.jarName + " from the mods folder.");
-    warn.withModActions(m_bowinfinityfix);
-    Startup.markForCrash();
-}
-
-var m_clumps = mods.get("clumps");
-if (m_clumps != null) {
-    var warn = Startup.addCrashWarning("Clumps is superseded by Fixeroo, which uses a better and more compatible implementation.<p>Fix: Delete " + m_clumps.jarName + " from the mods folder.");
-    warn.withModActions(m_clumps);
-    Startup.markForCrash();
-}
-
-var m_customspawner = mods.get("customspawner");
-if (m_customspawner != null) {
-    var warn = Startup.addCrashWarning("Custom Mob Spawner is very outdated and WILL screw up mob spawns in many mods. If you are using Mo' Creatures, it is highly recommended to use Mo' Creatures Extended instead which removes the dependency.");
-    warn.withModActions(m_customspawner);
-    Startup.markForCrash();
-}
-
-var m_damagetilt = mods.get("damagetilt");
-if (m_damagetilt != null) {
-    var warn = Startup.addCrashWarning("Damage Tilt has been merged into Universal Tweaks.<p>Fix: Delete " + m_damagetilt.jarName + " from the mods folder.");
-    warn.withModActions(m_damagetilt);
-    Startup.markForCrash();
-}
-
-var m_defaultlanport = mods.get("defaultlanport");
-if (m_defaultlanport != null) {
-    var warn = Startup.addCrashWarning("Default LAN Port has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_defaultlanport.jarName + " from the mods folder.");
-    warn.withModActions(m_defaultlanport);
-    Startup.markForCrash();
-}
-
-var m_deuf = mods.get("deuf");
-if (m_deuf != null) {
-    var warn = Startup.addCrashWarning("Duplicate Entity UUID Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_deuf.jarName + " from the mods folder.");
-    warn.withModActions(m_deuf);
-    Startup.markForCrash();
-}
-
-var m_diethopper = mods.get("diethopper");
-if (m_diethopper != null) {
-    var warn = Startup.addCrashWarning("Diet Hoppers has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_diethopper.jarName + " from the mods folder.");
-    warn.withModActions(m_diethopper);
-    Startup.markForCrash();
-}
-
-var m_drawerfps = mods.get("drawerfps");
-if (m_drawerfps != null) {
-    var warn = Startup.addCrashWarning("DrawerFPS Legacy has been merged into Universal Tweaks.<p>Fix: Delete " + m_drawerfps.jarName + " from the mods folder.");
-    warn.withModActions(m_drawerfps);
-    Startup.markForCrash();
-}
-
-var m_dupefixproject = mods.get("dupefixproject");
-if (m_dupefixproject != null) {
-    var warn = Startup.addCrashWarning("DupeFix Project is not compatible with MixinBooter. Universal Tweaks and the forks of the affected mods already include the same fixes.<p>Fix: Delete " + m_dupefixproject.jarName + " from the mods folder.");
-    warn.withModActions(m_dupefixproject);
-    Startup.markForCrash();
-}
-
-var m_enablecheats = mods.get("enablecheats");
-if (m_enablecheats != null) {
-    var warn = Startup.addCrashWarning("Enable Cheats has been merged into Universal Tweaks.<p>Fix: Delete " + m_enablecheats.jarName + " from the mods folder.");
-    warn.withModActions(m_enablecheats);
-    Startup.markForCrash();
-}
-
-var m_entity_desync_fix = mods.get("entity_desync_fix");
-if (m_entity_desync_fix != null) {
-    var warn = Startup.addCrashWarning("Entity Desync Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_entity_desync_fix.jarName + " from the mods folder.");
-    warn.withModActions(m_entity_desync_fix);
-    Startup.markForCrash();
-}
-
-var m_erebusfix = mods.get("erebusfix");
-if (m_erebusfix != null) {
-    var warn = Startup.addCrashWarning("Erebus Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_erebusfix.jarName + " from the mods folder.");
-    warn.withModActions(m_erebusfix);
-    Startup.markForCrash();
-}
-
-var m_essential = mods.get("essential");
-if (m_essential != null) {
-    var warn = Startup.addCrashWarning("Essential Mod has questionable implementation that makes it incompatible with several mods including CensoredASM and Forgelin-Continuous. It is recommended to use e4mc Retro (Proxy) or Lan UPNP (Non-Proxy) instead for a more simpler alternative.<p>Fix: Delete " + m_essential.jarName + " from the mods folder. If you're not sure how Essential Mod got installed, a mod you downloaded may be potentially installing it.");
-    warn.withModActions(m_essential);
-    Startup.markForCrash();
-}
-
-var m_experiencebugfix = mods.get("experiencebugfix");
-if (m_experiencebugfix != null) {
-    var warn = Startup.addCrashWarning("Fix Experience Bug has been merged into Universal Tweaks.<p>Fix: Delete " + m_experiencebugfix.jarName + " from the mods folder.");
-    warn.withModActions(m_experiencebugfix);
-    Startup.markForCrash();
-}
-
-var m_eyltrafix = mods.get("eyltrafix");
-if (m_eyltrafix != null) {
-    var warn = Startup.addCrashWarning("Elytra-Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_eyltrafix.jarName + " from the mods folder.");
-    warn.withModActions(m_eyltrafix);
-    Startup.markForCrash();
-}
-
-var m_fastleafdecay = mods.get("fastleafdecay");
-if (m_fastleafdecay != null) {
-    var warn = Startup.addCrashWarning("Fast Leaf Decay has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_fastleafdecay.jarName + " from the mods folder.");
-    warn.withModActions(m_fastleafdecay);
-    Startup.markForCrash();
-}
-
-var m_fencejumper = mods.get("fencejumper");
-if (m_fencejumper != null) {
-    var warn = Startup.addCrashWarning("Fence Jumper has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_fencejumper.jarName + " from the mods folder.");
-    warn.withModActions(m_fencejumper);
-    Startup.markForCrash();
-}
-
-var m_foamfix = mods.get("foamfix");
-if (m_foamfix != null) {
-    var warn = Startup.addCrashWarning("FoamFix is superseded by VintageFix, which uses a better and more compatible implementation.<p>Fix: Delete " + m_foamfix.jarName + " from the mods folder.");
-    warn.withModActions(m_foamfix);
-    Startup.markForCrash();
-}
-
-var m_foodfix = mods.get("foodfix");
-if (m_foodfix != null) {
-    var warn = Startup.addCrashWarning("Food Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_foodfix.jarName + " from the mods folder.");
-    warn.withModActions(m_foodfix);
-    Startup.markForCrash();
-}
-
-var m_fpsboostremake = mods.get("fpsboostremake");
-if (m_fpsboostremake != null) {
-    var warn = Startup.addCrashWarning("FPS Boost has little to no performance gain.<p>Fix: Delete " + m_fpsboostremake.jarName + " from the mods folder.");
-    warn.withModActions(m_fpsboostremake);
-    Startup.markForCrash();
-}
-
-var m_fpsoptimizer = mods.get("fpsoptimizer");
-if (m_fpsoptimizer != null) {
-    var warn = Startup.addCrashWarning("FPS Optimizer has little to no performance gain. It is highly recommended to use FPS Reducer instead.<p>Fix: Delete " + m_fpsoptimizer.jarName + " from the mods folder.");
-    warn.withModActions(m_fpsoptimizer);
-    Startup.markForCrash();
-}
-
-var m_framevoidpatch = mods.get("framevoidpatch");
-if (m_framevoidpatch != null) {
-    var warn = Startup.addCrashWarning("Frame Void Patch has been merged into Universal Tweaks.<p>Fix: Delete " + m_framevoidpatch.jarName + " from the mods folder.");
-    warn.withModActions(m_framevoidpatch);
-    Startup.markForCrash();
-}
-
-var m_frustumculling = mods.get("frustumculling");
-if (m_frustumculling != null) {
-    var warn = Startup.addCrashWarning("Frustum Culling (More FPS) will cause incompatibilities with no performance gain. Universal Tweaks already has its own Frustum Culling tweak.<p>Fix: Delete " + m_frustumculling.jarName + " from the mods folder.");
-    warn.withModActions(m_frustumculling);
-    Startup.markForCrash();
-}
-
-var m_givemebackmyhp = mods.get("givemebackmyhp");
-if (m_givemebackmyhp != null) {
-    var warn = Startup.addCrashWarning("Give Me Back My HP has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_givemebackmyhp.jarName + " from the mods folder.");
-    warn.withModActions(m_givemebackmyhp);
-    Startup.markForCrash();
-}
-
-var m_gpu_tape = mods.get("gpu_tape");
-if (m_gpu_tape != null) {
-    var warn = Startup.addCrashWarning("GPUTape has little to no performance gain.<p>Fix: Delete " + m_gpu_tape.jarName + " from the mods folder.");
-    warn.withModActions(m_gpu_tape);
-    Startup.markForCrash();
-}
-
-var m_helpfixer = mods.get("helpfixer");
-if (m_helpfixer != null) {
-    var warn = Startup.addCrashWarning("HelpFixer has been merged into Universal Tweaks.<p>Fix: Delete " + m_helpfixer.jarName + " from the mods folder.");
-    warn.withModActions(m_helpfixer);
-    Startup.markForCrash();
-}
-
-var m_horsestandstill = mods.get("horsestandstill");
-if (m_horsestandstill != null) {
-    var warn = Startup.addCrashWarning("Stupid Horse Stand Still has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_horsestandstill.jarName + " from the mods folder.");
-    warn.withModActions(m_horsestandstill);
-    Startup.markForCrash();
-}
-
-var m_keydescfix = mods.get("keydescfix");
-if (m_keydescfix != null) {
-    var warn = Startup.addCrashWarning("Keybind Description Fix has been merged into Universal Tweaks.<p>Fix: Delete " + m_keydescfix.jarName + " from the mods folder.");
-    warn.withModActions(m_keydescfix);
-    Startup.markForCrash();
-}
-
-var m_laglessmod = mods.get("laglessmod");
-if (m_laglessmod != null) {
-    var warn = Startup.addCrashWarning("Lagless Mod Lite will cause incompatibilities with no performance gain. Universal Tweaks already has its own Frustum Culling tweak.<p>Fix: Delete " + m_laglessmod.jarName + " from the mods folder");
-    warn.withModActions(m_laglessmod);
-    Startup.markForCrash();
-}
-
-var m_leafdecay = mods.get("leafdecay");
-if (m_leafdecay != null) {
-    var warn = Startup.addCrashWarning("Leaf Decay Accelerator has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_leafdecay.jarName + " from the mods folder.");
-    warn.withModActions(m_leafdecay);
-    Startup.markForCrash();
-}
-
-var m_loginhpfix = mods.get("loginhpfix");
-if (m_loginhpfix != null) {
-    var warn = Startup.addCrashWarning("Login HP Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_loginhpfix.jarName + " from the mods folder.");
-    warn.withModActions(m_loginhpfix);
-    Startup.markForCrash();
-}
-
-var m_maxhealthfixer = mods.get("maxhealthfixer");
-if (m_maxhealthfixer != null) {
-    var warn = Startup.addCrashWarning("Max Health Fixer has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_maxhealthfixer.jarName + " from the mods folder.");
-    warn.withModActions(m_maxhealthfixer);
-    Startup.markForCrash();
-}
-
-var m_movingquickly = mods.get("movingquickly");
-if (m_movingquickly != null) {
-    var warn = Startup.addCrashWarning("MovingQuickly has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_movingquickly.jarName + " from the mods folder.");
-    warn.withModActions(m_movingquickly);
-    Startup.markForCrash();
-}
-
-var m_multithreadednoise = mods.get("multithreadednoise");
-if (m_multithreadednoise != null) {
-    var warn = Startup.addCrashWarning("Multithreaded Noise is known to cause crashes and is outdated.<p>Fix: Delete " + m_multithreadednoise.jarName + " from the mods folder.");
-    warn.withModActions(m_multithreadednoise);
-    Startup.markForCrash();
-}
-
-var m_mup = mods.get("mup");
-if (m_mup != null) {
-    var warn = Startup.addCrashWarning("Eigencraft Unofficial Patch / MUP is known to cause crashes and is outdated. Universal Tweaks already has most of its fixes and Alfheim already has lighting optimizations.<p>Fix: Delete " + m_mup.jarName + " from the mods folder.");
-    warn.withModActions(m_mup);
-    Startup.markForCrash();
-}
-
-var m_nanfix = mods.get("nanfix");
-if (m_nanfix != null) {
-    var warn = Startup.addCrashWarning("Entity NaN Health Fix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_nanfix.jarName + " from the mods folder.");
-    warn.withModActions(m_nanfix);
-    Startup.markForCrash();
-}
-
-var m_netherportalfix = mods.get("netherportalfix");
-if (m_netherportalfix != null) {
-    var warn = Startup.addCrashWarning("NetherPortalFix has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_netherportalfix.jarName + " from the mods folder.");
-    warn.withModActions(m_netherportalfix);
-    Startup.markForCrash();
-}
-
-var m_nopotionshift = mods.get("nopotionshift");
-if (m_nopotionshift != null) {
-    var warn = Startup.addCrashWarning("No Potion Shift has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_nopotionshift.jarName + " from the mods folder.");
-    warn.withModActions(m_nopotionshift);
-    Startup.markForCrash();
-}
-
-var m_pathundergates = mods.get("pathundergates");
-if (m_pathundergates != null) {
-    var warn = Startup.addCrashWarning("Path Under Gates has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_pathundergates.jarName + " from the mods folder.");
-    warn.withModActions(m_pathundergates);
-    Startup.markForCrash();
-}
-
-var m_performant = mods.get("performant");
-if (m_performant != null) {
-    var warn = Startup.addCrashWarning("Performant is an empty mod jar. All code in the mod has been commented out.<p>Fix: Delete " + m_performant.jarName + " from the mods folder.");
-    warn.withModActions(m_performant);
-    Startup.markForCrash();
-}
-
-var m_phosphor_lighting = mods.get("phosphor-lighting");
-if (m_phosphor_lighting != null) {
-    var warn = Startup.addCrashWarning("Phosphor can cause a lot of crashes, and is deprecated.<p>Fix: Delete " + m_phosphor_lighting.jarName + " from the mods folder.");
-    warn.withModActions(m_phosphor_lighting);
-    Startup.markForCrash();
-}
-
-var m_pigium1_12_2 = mods.get("pigium1_12_2");
-if (m_pigium1_12_2 != null) {
-    var warn = Startup.addCrashWarning("Pigium is a placebo and not an actual performance mod. It was originally made for a YouTube video.<p>Fix: Delete " + m_pigium1_12_2.jarName + " from the mods folder.");
-    warn.withModActions(m_pigium1_12_2);
-    Startup.markForCrash();
-}
-
-var m_portaldupebegone = mods.get("portaldupebegone");
-if (m_portaldupebegone != null) {
-    var warn = Startup.addCrashWarning("PortalDupeBegone has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_portaldupebegone.jarName + " from the mods folder.");
-    warn.withModActions(m_portaldupebegone);
-    Startup.markForCrash();
-}
-
-var m_quickleafdecay = mods.get("quickleafdecay");
-if (m_quickleafdecay != null) {
-    var warn = Startup.addCrashWarning("Quick Leaf Decay has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_quickleafdecay.jarName + " from the mods folder.");
-    warn.withModActions(m_quickleafdecay);
-    Startup.markForCrash();
-}
-
-var m_redirectionor = mods.get("redirectionor");
-if (m_redirectionor != null) {
-    var warn = Startup.addCrashWarning("Redirectionor has little to no performance gain.<p>Fix: Delete " + m_redirectionor.jarName + " from the mods folder.");
-    warn.withModActions(m_redirectionor);
-    Startup.markForCrash();
-}
-
-var m_savemystronghold = mods.get("savemystronghold");
-if (m_savemystronghold != null) {
-    var warn = Startup.addCrashWarning("Save My Stronghold! has been merged into Universal Tweaks.<p>Fix: Delete " + m_savemystronghold.jarName + " from the mods folder.");
-    warn.withModActions(m_savemystronghold);
-    Startup.markForCrash();
-}
-
-var m_seedcopy = mods.get("seedcopy");
-if (m_seedcopy != null) {
-    var warn = Startup.addCrashWarning("SeedCopy has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_seedcopy.jarName + " from the mods folder.");
-    warn.withModActions(m_seedcopy);
-    Startup.markForCrash();
-}
-
-var m_spark = mods.get("spark");
-if (m_spark != null) {
-    var warn = Startup.addCrashWarning("Spark is superseded by Flare, which has more features included.<p>Fix: Delete " + m_spark.jarName + " from the mods folder.");
-    warn.withModActions(m_spark);
-    Startup.markForCrash();
-}
-
-var m_steamworldpatcher = mods.get("steamworldpatcher");
-if (m_steamworldpatcher != null) {
-    var warn = Startup.addCrashWarning("SteamWorldPatcher has been merged into Universal Tweaks.<p>Fix: Delete " + m_steamworldpatcher.jarName + " from the mods folder.");
-    warn.withModActions(m_steamworldpatcher);
-    Startup.markForCrash();
-}
-
-var m_stg = mods.get("stg");
-if (m_stg != null) {
-    var warn = Startup.addCrashWarning("SwingThroughGrass has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_stg.jarName + " from the mods folder.");
-    warn.withModActions(m_stg);
-    Startup.markForCrash();
-}
-
-var m_surge = mods.get("surge");
-if (m_surge != null) {
-    var warn = Startup.addCrashWarning("Surge uses deprecated methods and has no performance gain. Salvaged features have been merged into Universal Tweaks.<p>Fix: Delete " + m_surge.jarName + " from the mods folder.");
-    warn.withModActions(m_surge);
-    Startup.markForCrash();
-}
-
-var m_texfix = mods.get("texfix");
-if (m_texfix != null) {
-    var warn = Startup.addCrashWarning("TexFix has been rewritten and merged into Universal Tweaks. in CensoredASM.<p>Fix: Delete " + m_texfix.jarName + " from the mods folder.");
-    warn.withModActions(m_texfix);
-    Startup.markForCrash();
-}
+for (currentMod : allMods) {
+    var id = currentMod.getModId();
+    if (id == null || !problematicMods.containsKey(id)) {
+        continue;
+    }
 
-var m_tinkersoredictcache = mods.get("tinkersoredictcache");
-if (m_tinkersoredictcache != null) {
-    var warn = Startup.addCrashWarning("Tinkers OreDict Cache has been merged into Universal Tweaks and Tinkers' Antique.<p>Fix: Delete " + m_tinkersoredictcache.jarName + " from the mods folder.");
-    warn.withModActions(m_tinkersoredictcache);
-    Startup.markForCrash();
-}
-
-var m_unloader = mods.get("unloader");
-if (m_unloader != null) {
-    var warn = Startup.addCrashWarning("Unloader has been rewritten and merged into Universal Tweaks.<p>Fix: Delete " + m_unloader.jarName + " from the mods folder.");
-    warn.withModActions(m_unloader);
-    Startup.markForCrash();
-}
-
-var m_vanillafix = mods.get("vanillafix");
-if (m_vanillafix != null) {
-    var warn = Startup.addCrashWarning("VanillaFix has been rewritten and merged into CensoredASM.<p>Fix: Delete " + m_vanillafix.jarName + " from the mods folder.");
-    warn.withModActions(m_vanillafix);
-    Startup.markForCrash();
-}
+    var entry = problematicMods.get(id);
+    var message = entry[0];
+    var maxVersion = entry[1];
 
-var m_villagermantlefix = mods.get("villagermantlefix");
-if (m_villagermantlefix != null) {
-    var warn = Startup.addCrashWarning("Villager Mantle Fix has been merged into Universal Tweaks.<p>Fix: Delete " + m_villagermantlefix.jarName + " from the mods folder.");
-    warn.withModActions(m_villagermantlefix);
-    Startup.markForCrash();
-}
+    // If a maxVersion is set, only flag if the installed version is strictly below it
+    if (maxVersion != null && !VersionUtils.isLower(currentMod.getVersion(), maxVersion)) {
+        continue;
+    }
 
-var m_vintagium = mods.get("vintagium");
-if (m_vintagium != null) {
-    var warn = Startup.addCrashWarning("Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.<p>Fix: Delete " + m_vintagium.jarName + " from the mods folder.");
-    warn.withModActions(m_vintagium);
-    Startup.markForCrash();
-}
-var m_jei = mods.get("jei");
-if (m_jei != null && VersionUtils.isLower(m_jei.getVersion(), "4.16.1.1014")) {
-    var warn = Startup.addCrashWarning("JEI 1.12 is outdated and incompatible. Please replace it with HEI.<p>Fix: Delete " + m_jei.getJarName() + " from the mods folder.");
-    warn.withModActions(m_jei);
+    var warn = Startup.addCrashWarning(message + "<p>Fix: Delete " + currentMod.getJarName() + " from the mods folder.");
+    warn.withModActions(currentMod);
     Startup.markForCrash();
 }
-
