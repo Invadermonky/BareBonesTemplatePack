@@ -37,6 +37,6 @@
     {"projectID":1220460,"fileID":7603565,"___name":"Gnetum","downloadUrl":"https://edge.forgecdn.net/files/7603/565/gnetum-1.3.5.jar","required":true},
     {"projectID":818503,"fileID":4723768,"___name":"Advancement Locator","downloadUrl":"https://edge.forgecdn.net/files/4723/768/cta-1.12.2-1.2.2.jar","required":true},
     {"projectID":1154099,"fileID":7825517,"___name":"Crash Assistant","downloadUrl":"https://edge.forgecdn.net/files/7612/901/!!!CrashAssistant-forge-1.12.2-1.11.6.jar","required":true},
-    {"projectID":1487439,"fileID":7851871,"___name":"PackCompanion","downloadUrl":"https://edge.forgecdn.net/files/7764/529/!packcompanion-1.0.1.jar","required":true}
+    {"projectID":1487439,"fileID":7857506,"___name":"PackCompanion","downloadUrl":"https://edge.forgecdn.net/files/7764/529/!packcompanion-1.0.2.jar","required":true},
   ]
 }
