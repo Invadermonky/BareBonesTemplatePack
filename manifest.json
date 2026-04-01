@@ -19,7 +19,7 @@
     {"projectID":419286,"fileID":7049694,"___name":"MixinBooter","downloadUrl":"https://edge.forgecdn.net/files/7049/694/!mixinbooter-10.7.jar","required":true},
     {"projectID":461660,"fileID":5876158,"___name":"Mouse Tweaks Unofficial","downloadUrl":"https://edge.forgecdn.net/files/5876/158/mousetweaks-1.12.2-3.1.5.jar","required":true},
     {"projectID":633806,"fileID":7095475,"___name":"Fixeroo","downloadUrl":"https://edge.forgecdn.net/files/7095/475/Fixeroo-2.3.6.jar","required":true},
-    {"projectID":705000,"fileID":7818359,"___name":"Universal Tweaks","downloadUrl":"https://edge.forgecdn.net/files/7818/359/UniversalTweaks-1.12.2-1.19.1.jar","required":true},
+    {"projectID":705000,"fileID":7849634,"___name":"Universal Tweaks","downloadUrl":"https://edge.forgecdn.net/files/7818/359/UniversalTweaks-1.12.2-1.19.1.jar","required":true},
     {"projectID":910715,"fileID":6687458,"___name":"Alfheim Lighting Engine","downloadUrl":"https://edge.forgecdn.net/files/6687/458/Alfheim-1.6.jar","required":true},
     {"projectID":1064321,"fileID":6480479,"___name":"StellarCore","downloadUrl":"https://edge.forgecdn.net/files/6480/479/StellarCore-1.5.22.jar","required":true},
     {"projectID":871198,"fileID":6609247,"___name":"VintageFix","downloadUrl":"https://edge.forgecdn.net/files/6609/247/vintagefix-0.6.2.jar","required":true},
@@ -28,15 +28,15 @@
     {"projectID":873867,"fileID":7455761,"___name":"Red Core","downloadUrl":"https://edge.forgecdn.net/files/7455/761/!Red-Core-MC-1.8-1.12-0.7.1.jar","required":true},
     {"projectID":870276,"fileID":5212709,"___name":"ConfigAnytime","downloadUrl":"https://edge.forgecdn.net/files/5212/709/!configanytime-3.0.jar","required":true},
     {"projectID":692142,"fileID":6598523,"___name":"Flare (Spark for 1.12.2)","downloadUrl":"https://edge.forgecdn.net/files/6598/523/flare-0.7.0.jar","required":true},
-    {"projectID":1337144,"fileID":7397823,"___name":"LemonSkin (AppleSkin Fork)","downloadUrl":"https://edge.forgecdn.net/files/7397/823/lemonskin-4.0.0.jar","required":true},
+    {"projectID":1337144,"fileID":7763338,"___name":"LemonSkin (AppleSkin Fork)","downloadUrl":"https://edge.forgecdn.net/files/7397/823/lemonskin-4.0.0.jar","required":true},
     {"projectID":556777,"fileID":6327271,"___name":"Reach Fix","downloadUrl":"https://edge.forgecdn.net/files/6327/271/ReachFix-1.12.2-1.1.3.jar","required":true},
-    {"projectID":460609,"fileID":7267368,"___name":"CensoredASM","downloadUrl":"https://edge.forgecdn.net/files/7267/368/loliasm-5.31.jar","required":true},
+    {"projectID":460609,"fileID":7671063,"___name":"CensoredASM","downloadUrl":"https://edge.forgecdn.net/files/7267/368/loliasm-5.31.jar","required":true},
     {"projectID":896591,"fileID":5187152,"___name":"SerializationIsBad","downloadUrl":"https://edge.forgecdn.net/files/5187/152/serializationisbad-1.5.2.jar","required":true},
     {"projectID":557549,"fileID":7515497,"___name":"Had Enough Items","downloadUrl":"https://edge.forgecdn.net/files/7515/497/HadEnoughItems_1.12.2-4.29.15.jar","required":true},
     {"projectID":306555,"fileID":2707092,"___name":"Sound Device Options","downloadUrl":"https://edge.forgecdn.net/files/2707/92/moresoundconfig-1.0.4.jar","required":true},
     {"projectID":1220460,"fileID":7603565,"___name":"Gnetum","downloadUrl":"https://edge.forgecdn.net/files/7603/565/gnetum-1.3.5.jar","required":true},
     {"projectID":818503,"fileID":4723768,"___name":"Advancement Locator","downloadUrl":"https://edge.forgecdn.net/files/4723/768/cta-1.12.2-1.2.2.jar","required":true},
-    {"projectID":1154099,"fileID":7612901,"___name":"Crash Assistant","downloadUrl":"https://edge.forgecdn.net/files/7612/901/!!!CrashAssistant-forge-1.12.2-1.11.6.jar","required":true},
-    {"projectID":1487439,"fileID":7764529,"___name":"PackCompanion","downloadUrl":"https://edge.forgecdn.net/files/7764/529/!packcompanion-1.0.1.jar","required":true}
+    {"projectID":1154099,"fileID":7825517,"___name":"Crash Assistant","downloadUrl":"https://edge.forgecdn.net/files/7612/901/!!!CrashAssistant-forge-1.12.2-1.11.6.jar","required":true},
+    {"projectID":1487439,"fileID":7851871,"___name":"PackCompanion","downloadUrl":"https://edge.forgecdn.net/files/7764/529/!packcompanion-1.0.1.jar","required":true}
   ]
 }
