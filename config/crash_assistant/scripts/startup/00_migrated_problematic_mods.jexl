@@ -72,7 +72,8 @@ var problematicMods = {
     "vintagium":         ["Vintagium and its forks are known to cause crashes and are outdated. Celeritas serves as the continuation with better compatibility.", null],
     // Version-gated: only flag if version is BELOW this threshold
     "jei":               ["JEI 1.12 is outdated and incompatible. BareBones already includes .", "4.16.1.1014"],
-    "mousetweaks":       ["BareBones already includes a newer version of MouseTweaks", "3.1.5"]
+    "jeid":              ["This version of JEID/REID is outdated. You need to update to the latest version of REID", "2.3.0"]
+    "mousetweaks":       ["BareBones already includes a newer version of MouseTweaks", "3.1.5"],
 };
 
 // Loop
