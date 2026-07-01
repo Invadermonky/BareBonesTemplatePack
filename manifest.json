@@ -39,6 +39,7 @@
     {"projectID":306555,"fileID":2707092,"___name":"Sound Device Options","downloadUrl":"https://edge.forgecdn.net/files/2707/92/moresoundconfig-1.0.4.jar","required":true},
     {"projectID":1064321,"fileID":6480479,"___name":"StellarCore","downloadUrl":"https://edge.forgecdn.net/files/6480/479/StellarCore-1.5.22.jar","required":true},
     {"projectID":705000,"fileID":7849634,"___name":"Universal Tweaks","downloadUrl":"https://edge.forgecdn.net/files/7818/359/UniversalTweaks-1.12.2-1.19.0.jar","required":true},
-    {"projectID":871198,"fileID":7958801,"___name":"VintageFix","downloadUrl":"https://edge.forgecdn.net/files/6609/247/vintagefix-0.6.2.jar","required":true}
+    {"projectID":871198,"fileID":7958801,"___name":"VintageFix","downloadUrl":"https://edge.forgecdn.net/files/6609/247/vintagefix-0.6.2.jar","required":true},
+    {"projectID":1214490,"fileID":8346854,"___name":"CleanroomRelauncher","downloadUrl":"https://edge.forgecdn.net/files/8346/854/!cleanroom-relauncher-0.6.0.jar","required":true}
   ]
 }
