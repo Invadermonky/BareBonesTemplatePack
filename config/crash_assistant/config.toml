@@ -4,7 +4,7 @@
 	#Anyways log will be uploaded to mclo.gs, but with this option you can wrap link to gnomebot.dev for better formatting.
 	#If help_link equals 'CHANGE_ME', this value will be ignored and gnomebot.dev used.
 	#Supported values: mclo.gs / gnomebot.dev
-	upload_to = "gnomebot.dev"
+	upload_to = "mclo.gs"
 	#By changing this value you can disable creating "crash_assistant_localization_overrides" folder and placing "README.md" file there.
 	generate_localization_overrides_folder_with_readme = true
 	#By default, crash assistant will get the value for the current language from the overrides folder, then from the jar.
