@@ -88,7 +88,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 ## Included Mods
 - **[Advancement Locator](https://www.curseforge.com/minecraft/mc-mods/advancement-locator)** **(1.2.2)** - A QoL mod that adds left click interaction to chat frame Advancements as well as an Advancement locator command.
 - **[Alfheim Lighting Engine](https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine)** **(1.6)** - A lighting engine replacement for Minecraft, optimized for performance and fixing many bugs. If you encounter issues with Alfheim, you can try using [燐/Hesperus](https://www.curseforge.com/minecraft/mc-mods/hesperus), though it is not recommended.
-- **[CensoredASM](https://www.curseforge.com/minecraft/mc-mods/lolasm)** **(5.31)** - A collection of large optimizations targeted at 1.12.2.
+- **[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)** **(5.31)** - A collection of large optimizations targeted at 1.12.2.
 - **[Cleanroom Relauncher](https://modrinth.com/mod/cleanroom-relauncher)** **(0.4.0)** - Relaunches Forge 1.12.2 environments with the Cleanroom Mod Loader.
 - **[ConfigAnytime](https://www.curseforge.com/minecraft/mc-mods/configanytime)** **(3.0)** - A utility mod allowing early configuration loading. Used by Universal Tweaks and many other mods that modify Minecraft's code with mixins.
 - **[Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant)** **(1.11.6)** - An advanced crash log handler with several important debugging tools. Used in the BareBones template to locate incompatible and depreciated mods.
