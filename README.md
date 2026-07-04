@@ -88,20 +88,19 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 ## Included Mods
 - **[Advancement Locator](https://www.curseforge.com/minecraft/mc-mods/advancement-locator)** **(1.2.2)** - A QoL mod that adds left click interaction to chat frame Advancements as well as an Advancement locator command.
 - **[Alfheim Lighting Engine](https://www.curseforge.com/minecraft/mc-mods/alfheim-lighting-engine)** **(1.6)** - A lighting engine replacement for Minecraft, optimized for performance and fixing many bugs. If you encounter issues with Alfheim, you can try using [燐/Hesperus](https://www.curseforge.com/minecraft/mc-mods/hesperus), though it is not recommended.
-- **[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)** **(5.31)** - A collection of large optimizations targeted at 1.12.2.
-- **[Cleanroom Relauncher](https://modrinth.com/mod/cleanroom-relauncher)** **(0.4.0)** - Relaunches Forge 1.12.2 environments with the Cleanroom Mod Loader.
+- **[Chibi](https://www.curseforge.com/minecraft/mc-mods/chibi)** **(5.33)** - A collection of large optimizations targeted at 1.12.2.
+- **[Cleanroom Relauncher](https://www.curseforge.com/minecraft/mc-mods/cleanroom-relauncher)** **(0.6.0)** - Relaunches Forge 1.12.2 environments with the Cleanroom Mod Loader.
 - **[ConfigAnytime](https://www.curseforge.com/minecraft/mc-mods/configanytime)** **(3.0)** - A utility mod allowing early configuration loading. Used by Universal Tweaks and many other mods that modify Minecraft's code with mixins.
-- **[Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant)** **(1.11.6)** - An advanced crash log handler with several important debugging tools. Used in the BareBones template to locate incompatible and depreciated mods.
-- **[File Director](https://www.curseforge.com/minecraft/mc-mods/filedirector)** **(1.9.1)** - Modpack creator tool for installing and updating modpack configurations with remote support. Mainly used for [Cleanroom Relauncher](https://modrinth.com/mod/cleanroom-relauncher).
+- **[Crash Assistant](https://www.curseforge.com/minecraft/mc-mods/crash-assistant)** **(1.11.10)** - An advanced crash log handler with several important debugging tools. Used in the BareBones template to locate incompatible and depreciated mods.
 - **[Fixeroo](https://www.curseforge.com/minecraft/mc-mods/xp-orb-clump)** **(2.3.6)** - A collection of small fixes for Minecraft, most notably an improved implementation of the [Clumps](https://www.curseforge.com/minecraft/mc-mods/clumps) mod.
 - **[Flare](https://www.curseforge.com/minecraft/mc-mods/flare)** **(0.7.0)** - A performance profiler for 1.12.2 clients and servers based off of Spark.
 - **[FPS Reducer](https://www.curseforge.com/minecraft/mc-mods/fps-reducer)** **(1.20)** - Reduces CPU and GPU usage when the game window is inactive or minimized.
-- **[Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue)** **(0.23.4)** - A universal incompatibility patching mod for Cleanroom Mod Loader.
+- **[Fugue](https://www.curseforge.com/minecraft/mc-mods/fugue)** **(0.23.6)** - A universal incompatibility patching mod for Cleanroom Mod Loader.
 - **[Gnetum](https://www.curseforge.com/minecraft/mc-mods/gnetum)** **(1.3.5)** - Improves performance in GUIs by distributing HUD updates over multiple frames.
 - **[Had Enough Items](https://www.curseforge.com/minecraft/mc-mods/had-enough-items)** **(4.29.15)** - An updated fork of JEI for 1.12.2 with optimizations and more features.
 - **[JEI Area Fixer](https://www.curseforge.com/minecraft/mc-mods/jei-area-fixer)** **(2.3.0)** - A collection of mod fixes to prevent GUI overlap with JEI/HEI.
 - **[LemonSkin](https://www.curseforge.com/minecraft/mc-mods/lemonskin)** **(4.0.0)** - An updated fork of AppleSkin, adding item food value tooltips and advanced hunger bar appearance.
-- **[MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)** **(10.7)** - A standardized library used for bytecode manipulation. Required by most mods in this pack.
+- **[MixinBooter](https://www.curseforge.com/minecraft/mc-mods/mixin-booter)** **(11.1)** - A standardized library used for bytecode manipulation. Required by most mods in this pack.
 - **[Mouse Tweaks Unofficial](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks-unofficial)** **(3.1.5)** - A continuation of MouseTweaks for Minecraft 1.12.2, adding improved mouse GUI interactions.
 - **[PackCompanion](https://www.curseforge.com/minecraft/mc-mods/packcompanion)** **(1.0.2)** - A utility mod used to assist players and modpack makers in finding updated forks and problematic mods.
 - **[Reach Fix](https://www.curseforge.com/minecraft/mc-mods/reach-fix)** **(1.1.3)** - Fixes the reach distance attribute not applying to player and entity attacks. Also improves hitbox interpolation when attacking entities.
@@ -109,8 +108,8 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 - **[Scalar Legacy](https://www.curseforge.com/minecraft/mc-mods/scalar-legacy)** **(1.0.1)** - The Scala 2.11.x provider for Cleanroom Mod Loader.
 - **[Sound Device Options](https://www.curseforge.com/minecraft/mc-mods/more-sound-config)** **(1.0.4)** - A small mod that adds an option to switch the sound output device without reloading the game.
 - **[StellarCore](https://www.curseforge.com/minecraft/mc-mods/stellarcore)** **(1.5.22)** - A collection of tweaks, optimizations and fixes targeted at 1.12.2.
-- **[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)** **(1.19.1)** - A community project to consolidate various bugfixes and tweaks into a single solution for Minecraft 1.12.2.
-- **[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)** **(0.6.2)** - An updated an improved version of FoamFix. Improves load times and RAM usage for Minecraft 1.12.2.
+- **[Universal Tweaks](https://www.curseforge.com/minecraft/mc-mods/universal-tweaks)** **(1.20.1)** - A community project to consolidate various bugfixes and tweaks into a single solution for Minecraft 1.12.2.
+- **[VintageFix](https://www.curseforge.com/minecraft/mc-mods/vintagefix)** **(0.7.0)** - An updated an improved version of FoamFix. Improves load times and RAM usage for Minecraft 1.12.2.
 
 ---
 
