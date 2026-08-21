@@ -127,7 +127,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
         Yes, there are three:
         <ul>
           <li><a href="https://optifine.net/adloadx?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar&x=c2f6">Optifine</a>
-          <li><a href="https://github.com/kappa-maintainer/Celeritas-auto-build/releases">Celeritas</a> (Cleanroom Exclusive)
+          <li><a href="https://github.com/kappa-maintainer/Celeritas-auto-build/releases">Celeritas</a>
           <li><a href="https://www.curseforge.com/minecraft/mc-mods/nothirium">Nothirium</a>
         </ul>
       </p>
@@ -138,7 +138,7 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
           While not included in the 'Optional' section of this template, <a href="https://www.curseforge.com/minecraft/mc-mods/nothirium">Nothirium</a> is the BareBones recommendation. If adding Nothirium to your pack, be sure to also include <a href="https://www.curseforge.com/minecraft/mc-mods/naughthirium">Naughthirium</a>.
       </p>
       <p>
-          Should you choose to add Optifine to your modpack, be sure to also include <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a>.
+          Should you choose to add OptiFine to your modpack, be sure to also include <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a>.
       </p>
       <p>
           You can read more information about these mods here: <a href="https://cleanroommc.com/wiki/end-user-guide/preparing-your-modpack#render-optimization-mods">Render optimization mods </a>
@@ -166,13 +166,13 @@ This pack ***DOES NOT*** include any type of shader or lighting enhancement mods
 
 <p>
   <details>
-    <summary>Why wasn't Optifine included?</summary>
+    <summary>Why wasn't OptiFine included?</summary>
     <blockquote>
       <p>
         Optifine for 1.12.2 is extremely outdated and no longer supported by the developers. It increases load times and can cause rendering issues with modded entities. It is not incompatible with the BareBones template, but it may require additional configuration. 
       </p>
       <p>
-        If you do choose to include Optifine, be sure to also add <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a> to your modpack instance.
+        If you do choose to include OptiFine, be sure to also add <a href="https://www.curseforge.com/minecraft/mc-mods/optinotfine">OptiNotFine</a> to your modpack instance.
       </p>
     </blockquote>
   </details>
